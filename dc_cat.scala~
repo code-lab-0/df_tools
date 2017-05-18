@@ -1,5 +1,0 @@
-
-import net.ogalab.datacell.h2.DcCat
-
-val facObj = new H2Factory
-

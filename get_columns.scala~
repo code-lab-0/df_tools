@@ -1,7 +1,0 @@
-
-object Main extends App {
-  for(line <- io.Source.stdin.getLines()) {
-    val numAry = line.split(' ').map { _.toInt }
-    println(numAry.sorted.mkString(" "))
-  }
-}
