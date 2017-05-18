@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# http://qiita.com/chidakiyo/items/356a718309839fd1407a
+
+if [ -p /dev/stdin ]; then
+    cat - | java -Dsbt.main.class=sbt.ScriptMain -Dsbt.boot.directory=$HOME/.sbt/boot -jar `dirname $0`/sbt-launch.jar "$@"
+else
+	java -Dsbt.main.class=sbt.ScriptMain -Dsbt.boot.directory=$HOME/.sbt/boot -jar `dirname $0`/sbt-launch.jar "$@"
+fi 

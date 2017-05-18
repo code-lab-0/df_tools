@@ -1,0 +1,937 @@
+oogasawa@192-168-11-103.maas:~/works/df_tools/perl_progs (2017-05-16 11:05:25)
+$ cp freq.pl ..
+oogasawa@192-168-11-103.maas:~/works/df_tools/perl_progs (2017-05-16 11:06:32)
+$ cp get.pl ..
+oogasawa@192-168-11-103.maas:~/works/df_tools/perl_progs (2017-05-16 11:06:47)
+$ cp get_subpattern.pl ..
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file ... target_directory
+oogasawa@192-168-11-103.maas:~/works/df_tools/perl_progs (2017-05-16 11:06:58)
+$ cp get_subpattern.pl ..
+oogasawa@192-168-11-103.maas:~/works/df_tools/perl_progs (2017-05-16 11:07:02)
+$ cp grep.pl ..
+oogasawa@192-168-11-103.maas:~/works/df_tools/perl_progs (2017-05-16 11:07:10)
+$ cp get_row_from.pl ..
+oogasawa@192-168-11-103.maas:~/works/df_tools/perl_progs (2017-05-16 11:07:23)
+$ cp get_pattern.pl ..
+oogasawa@192-168-11-103.maas:~/works/df_tools/perl_progs (2017-05-16 11:07:34)
+$ cp join.pl ..
+oogasawa@192-168-11-103.maas:~/works/df_tools/perl_progs (2017-05-16 11:07:51)
+$ cp merge* ..
+oogasawa@192-168-11-103.maas:~/works/df_tools/perl_progs (2017-05-16 11:08:46)
+$ cp set_unique.pl ..
+oogasawa@192-168-11-103.maas:~/works/df_tools/perl_progs (2017-05-16 11:10:23)
+$ cp substitute.pl ..
+oogasawa@192-168-11-103.maas:~/works/df_tools/perl_progs (2017-05-16 11:10:48)
+$ cp table_collapse.pl ..
+oogasawa@192-168-11-103.maas:~/works/df_tools/perl_progs (2017-05-16 11:11:28)
+$ ls
+00.php					javac.pl
+00.pl					javac_lib.pl
+01.pl					javadoc_getMethodDescription.pl
+0cichlid.pl				job.pl
+ArrayExpress_GetData.pl			join.pl
+ArrayExpress_to_TCF.pl			join_val.pl
+BodyMapDB.pm				jython.sh
+Companies.py				kill.pl
+DDBJ_FF.pm				kwic.pl
+EUC2UTF8.pl				kwic_dbTable.pl
+English.sql				kwic_google.pl
+GEOseries2table.pl			lc.pl
+Html_toUTF8.pl				lib.pl
+InsdProject.pm				list_concat.pl
+JavaScript				listgen_alphabet.pl
+Javadoc.pm				listgen_ascii.pl
+OgaUtil.pm.bak				mageml2tcf.pl
+PHP					makeHtmlTable.pl
+Perl					makePngTable.pl
+PerlModules1				maven_jstl.sh
+PerlModules2				mediawiki_lucene.pl
+PythonExample.py			merge.pl
+R					merge_column.pl
+R.pl					merge_tandem.pl
+RE.pl					minicpan.sh
+RGM2.pl					mvn_clear_ogalab.pl
+RGM2.sql				mvn_clj_gen.pl
+RGM2toMediawiki.pl			mvn_deploy_to_private_repository.pl
+R_dk2html_all.pl			null.pl
+R_graph_multiplot.pl			nutch_recrawl.sh
+R_manual.sql				ogaparse.pl
+R_manual2.sql				ogawiki.pl
+R_manual_all.pl				ogawiki2db.pl
+R_packages.pl				overview.sql
+Rcode_table.pl				overview_test.sh
+Rcode_to_tcf.pl				overwrite.pl
+Rd2dk.pl				p.pl
+Rd2dk.sh				pea.pl
+Rd2dk0.pl				pg_cat.sh
+Rd2dk00.pl				plot.pl
+Rd2dk01.pl				plx_to_pl.pl
+Rd2dk_all2.pl				process_all.pl
+Rd_getDesc.pl				prog.pl
+Rd_index.pl				pt2table.pl
+Rd_index_all.pl				pubmed.py
+Rd_update.pl				pubmed_central_download.pl
+Rdconv2.pl				put_row.pl
+Rdtxt2tcf.pl				qdel.pl
+RefSeq_seq__BLAST_fasta.pl		qkcc100.zip
+Remote.py				qsub_all.pl
+Rpkg_all.pl				rc.pl
+Rpkg_calc_package_dependancy.pl		re_test.pl
+Rpkg_depends.pl				relation.pl
+Rpkg_depends2.pl			relation_cluster.pl
+Rpkg_depends3.pl			relation_one_to_many.pl
+Rpkg_download.pl			relation_tangled.pl
+Rpkg_getFuncFromExample.pl		remove_comment.pl
+Rpkg_image2.sh				rename.pl
+Rpkg_install.pl				rgm_update.sh
+Rpkg_make_alias_table.pl		rm_null_img.pl
+Rpkg_make_function_tcf.pl		rm_null_img.plx
+Rpkg_make_package_tcf.pl		rm_null_img0.pl
+Rpkg_make_txt_manuals.pl		rm_null_img1.pl
+SAGEmap2tcf.pl				rm_row.pl
+Sterna_showResult.pl			rm_version.pl
+Taxonomy.pm				row_collapse.pl
+Tempfile.py				s.pl
+Tissue_make_html2.pl			sample
+Tissue_make_html2.sh			scala.pl
+URL_isAlive.pl				scp_get.pl
+UnigeneSeq_getNoPolyA-mRNA.pl		send_jars.pl
+UnigeneSeq_getPolyA-mRNA.pl		sentence_align.pl
+UnigeneSeq_getSAGEtag.pl		sentence_index.pl
+World.py				sentence_search.pl
+Yahoo.py				sentry.pl
+YahooJp.py				seq_window_plot.pl
+ab.pl					server.sh
+ac.pl					set_calc.pl
+access_cat.pl				set_unique.pl
+add_header.pl				simul_ToRedundantFormat.pl
+add_row.pl				soap_getentry.pl
+append_period.pl			sort.pl
+b2					species.sql
+backup.pl				species2000.pl
+backup_all.pl				species3.sql
+backup_glowlight			speciesdb.sql
+backup_glowlight.pl			speciesdb2.sql
+batch_c2.pl				speciesdb3.sql
+batch_groovyc.pl			speciesdb_dmp2txt.pl
+batch_java.pl				speciesdb_mysql.sh
+batch_java2.pl				split.pl
+batch_math.pl				split_table.pl
+batckup_all.pl				sql_schema.pl
+bdb_cat.pl				stat_corrZtrans.pl
+bdb_cat2.pl				statpack.pl
+bdb_join.pl				status.pl
+bdb_put.pl				string_split.pl
+beamer.sh				substitute.pl
+bill					summary.pl
+bill0					summary.py
+bill2					svn_add.pl
+bill_compress.pl			svn_add.plx
+bill_pack.pl				svn_status.pl
+bin.pl					svn_update.pl
+bit_table2xi.pl				table2MySQL.pl
+blast2table.pl				table2PgSQL.pl
+blast_best.pl				table2bdb.pl
+bootstrap.pl				table2factor.pl
+calc.pl					table2fasta.pl
+calc_matrix.pl				table2header.pl
+cat.pl					table2html.pl
+cget.pl					table2html2.pl
+cia.py					table2jsf.pl
+cia_GDP.pl				table2vt.pl
+clojure-repl.pl				table2wiki.pl
+clojure-repl.sh				table_categorize.pl
+cmd.pl					table_checker.pl
+column_count.pl				table_collapse.pl
+column_group_by.pl			table_column_num.pl
+comment.pl				table_comment_out.pl
+concat.pl				table_correspondence.pl
+config.pl				table_dense.pl
+connect.pl				table_one_liner.pl
+controller.pl				table_sparse.pl
+crlf2lf.pl				table_stat.pl
+crypt_config.pl				table_subst.pl
+csv2table.pl				table_to_2d.pl
+ctcf2tcf.pl				tag2fasta.pl
+ctcf_getData.pl				tax_names_to_table.pl
+data_update.pl				taxonomy_dmp2txt.pl
+data_update_insdc.pl			taxonomy_flatten.pl
+data_update_taxonomy.pl			taxonomy_to_table.pl
+data_update_unigene.pl			taxonomy_to_tcf.pl
+data_update_unilib.pl			taxonomy_trail.pl
+db_cat.sh				tcf2MySQL.pl
+ddbj_filtrate.pl			tcf2SQLite.pl
+ddbj_get_organism.pl			tcf2bdb.pl
+ddbj_get_reference.pl			tcf2create_table.pl
+ddbj_xml_all.pl				tcf2fasta.pl
+ddbj_xml_est_clone_lib.pl		tcf2load_data.pl
+ddbj_xml_prep.pl			tcf2table.pl
+deploy.pl				tcf2table_all.pl
+distinct.pl				tcf2tree.pl
+doc.pl					tcf_get.pl
+doc_make_contents.pl			tcf_sentence_cutter.pl
+download_r_bloggers.pl			tcf_swap_pred2heading.pl
+duckbill.pl				tcf_unprintable.pl
+duckbill2.pl				test
+duckbill_exec.pl			test_columnHeader.pl
+endonote_to_html.pl			test_duckbill.pl
+eng2epr.pl				test_duckbill_environment.pl
+eng2xi.pl				test_ithread.pl
+eng_xi2dk.pl				test_system.pl
+ensembl_gene.pl				test_table.pl
+ensembl_get_mRNA_sequence.pl		testutil.pl
+ensembl_get_sequence.pl			text2print.pl
+ensembl_install.pl			text2sentence.pl
+epylint					textTable.py
+est_ff_get_fields.pl			text_getSentences.pl
+extract-eps.pl				text_length.pl
+fasta_filtrate.pl			textogif
+fasta_id.pl				textogif_1.1.tar.gz
+fasta_split.pl				time.pl
+file_stat.pl				tissuedb.sql
+filename_getBasename.pl			tissuedb_bread_crumb_trail.pl
+fix_col_num.pl				tissuedb_mysql.sh
+freq.pl					toUTF8.pl
+freq2table.pl				tree2html.pl
+freq_table.pl				tree2table.pl
+ftp_rls.pl				tree_join.pl
+ftp_rls_to_table.pl			unigene2tcf.pl
+gdb_cat.pl				unigene_tcf2bodymap.pl
+gdb_put.pl				unilib2tcf.pl
+get.pl					uniprot.pl
+get_pattern.pl				utf2euc_jp.pl
+get_row_from.pl				util.pl
+get_subpattern.pl			vga.pl
+google.py				vt2table.pl
+google_fetch.pl				vt_merge.pl
+google_kwic.pl				wc.pl
+grep.pl					wdb2_all.pl
+html_getText.pl				wdb_table_cia.pl
+html_strip.pl				web_getHead.pl
+image_resize.pl				web_getHeadSimple.pl
+install_apt.pl				web_getSimple.pl
+install_pm.pl				web_getText.pl
+jabref.sh				wget_mirror.sh
+jar_duplicated.scala			wikipedia2tcf.pl
+java_commit.pl				wikipedia_download.pl
+java_ex.pl				wikipedia_getTitle.pl
+java_ex0.pl				wikipedia_index.pl
+java_ex00.pl				word_freq.pl
+java_get_jar.pl				world.pl
+java_put_jar.pl				world_db.sql
+java_update.pl				worlddb
+oogasawa@192-168-11-103.maas:~/works/df_tools/perl_progs (2017-05-16 11:12:09)
+$ cd ..
+oogasawa@192-168-11-103.maas:~/works/df_tools (2017-05-16 11:12:13)
+$ ls
+freq.pl			get_subpattern.pl	merge_column.pl		substitute.pl
+get.pl			grep.pl			merge_tandem.pl		table_collapse.pl
+get_pattern.pl		join.pl			perl_progs
+get_row_from.pl		merge.pl		set_unique.pl
+oogasawa@192-168-11-103.maas:~/works/df_tools (2017-05-16 11:12:14)
+$ rm -R -f perl_progs/
+oogasawa@192-168-11-103.maas:~/works/df_tools (2017-05-16 11:16:59)
+$ ls
+freq.pl			get_subpattern.pl	merge_column.pl		table_collapse.pl
+get.pl			grep.pl			merge_tandem.pl
+get_pattern.pl		join.pl			set_unique.pl
+get_row_from.pl		merge.pl		substitute.pl
+oogasawa@192-168-11-103.maas:~/works/df_tools (2017-05-16 11:17:00)
+$ locate sbt-launch.jar
+/usr/local/Cellar/sbt/0.13.13/libexec/sbt-launch.jar
+/usr/local/Cellar/sbt/0.13.15/libexec/bin/sbt-launch.jar
+oogasawa@192-168-11-103.maas:~/works/df_tools (2017-05-16 12:00:02)
+$ cp /usr/local/Cellar/sbt/0.13.15/libexec/bin/sbt-launch.jar .
+oogasawa@192-168-11-103.maas:~/works/df_tools (2017-05-16 12:00:25)
+$ chmod +x scalas
+oogasawa@192-168-11-103.maas:~/works/df_tools (2017-05-16 12:01:45)
+$ ls
+freq.pl			get_subpattern.pl	merge_column.pl		scalas~
+get.pl			grep.pl			merge_tandem.pl		set_unique.pl
+get_pattern.pl		join.pl			sbt-launch.jar		substitute.pl
+get_row_from.pl		merge.pl		scalas			table_collapse.pl
+oogasawa@192-168-11-103.maas:~/works/df_tools (2017-05-16 12:01:46)
+$ ls *.jar
+sbt-launch.jar
+oogasawa@192-168-11-103.maas:~/works/df_tools (2017-05-16 12:01:59)
+$ ls
+freq.pl			get_subpattern.pl	merge_column.pl		scalas~
+get.pl			grep.pl			merge_tandem.pl		set_unique.pl
+get_pattern.pl		join.pl			sbt-launch.jar		substitute.pl
+get_row_from.pl		merge.pl		scalas			table_collapse.pl
+oogasawa@192-168-11-103.maas:~/works/df_tools (2017-05-16 12:02:01)
+$ export PATH=$PATH:$HOME/works/df_tools
+oogasawa@192-168-11-103.maas:~/works/df_tools (2017-05-16 12:02:24)
+$ chmod +x hello.scala
+oogasawa@192-168-11-103.maas:~/works/df_tools (2017-05-16 12:03:00)
+$ ./hello.scala 
+Hello World
+oogasawa@192-168-11-103.maas:~/works/df_tools (2017-05-16 12:03:34)
+$ ./hello.scala 
+Hello World
+oogasawa@192-168-11-103.maas:~/works/df_tools (2017-05-16 12:03:44)
+$ ./hello.scala 
+Hello World
+oogasawa@192-168-11-103.maas:~/works/df_tools (2017-05-16 12:03:56)
+$ scala hello.scala
+Hello World
+oogasawa@192-168-11-103.maas:~/works/df_tools (2017-05-16 12:05:21)
+$ cd ..
+oogasawa@192-168-11-103.maas:~/works (2017-05-16 12:09:13)
+$ mkdir sc_user
+oogasawa@192-168-11-103.maas:~/works (2017-05-16 12:09:20)
+$ mv sc_user/
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+oogasawa@192-168-11-103.maas:~/works (2017-05-16 12:09:23)
+$ cd sc
+bash: cd: sc: No such file or directory
+oogasawa@192-168-11-103.maas:~/works (2017-05-16 12:09:25)
+$ cd sc_user/
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 12:10:08)
+$ ls
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 12:10:09)
+$ ls
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 12:10:25)
+$ ls
+20170509_alluser.txt
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 12:10:51)
+$ cat 20170509_alluser.txt 
+zxqwasasqwzx@gmail.com	�ɓ� ���	����������w��w��	770-8514	�����������s�R�钬���l�Ԏ��P�W�O	088-602-8450	���{							zxqwasasqwzx	20140820										oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 12:11:44)
+$ cat 20170509_alluser.txt | iconv -f Shift_JIS -t UTF-8
+zxqwasasqwzx@gmail.com	伊藤 卓也	徳島文理大学薬学部	770-8514	徳島県徳島市山城町西浜榜示１８０	088-602-8450	日本							zxqwasasqwzx	20140820										oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 12:12:21)
+$ ls
+20170509_alluser.txt
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 12:12:36)
+$ scala pipe_test.scala
+/Users/oogasawa/works/sc_user/pipe_test.scala:3: error: Invalid literal number
+cat 20170509_alluser.txt #| iconv -f Shift_JIS -t UTF-8 !
+    ^
+one error found
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 12:14:39)
+$ ls
+20170509_alluser.txt	pipe_test.scala		pipe_test.scala~
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 12:14:43)
+$ ls
+20170509_alluser.txt	pipe_test.scala		pipe_test.scala~
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 12:15:11)
+$ scala pipe_test.scala
+warning: there was one feature warning; re-run with -feature for details
+one warning found
+zxqwasasqwzx@gmail.com	伊藤 卓也	徳島文理大学薬学部	770-8514	徳島県徳島市山城町西浜榜示１８０	088-602-8450	日本							zxqwasasqwzx	20140820										oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 12:15:35)
+$ scala pipe_test.scala
+warning: there was one feature warning; re-run with -feature for details
+one warning found
+zxqwasasqwzx@gmail.com	伊藤 卓也	徳島文理大学薬学部	770-8514	徳島県徳島市山城町西浜榜示１８０	088-602-8450	日本							zxqwasasqwzx	20140820										oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 12:16:12)
+$ scala pipe_test.scala
+warning: there was one feature warning; re-run with -feature for details
+one warning found
+cat: 見出し1: No such file or directory
+cat: header2: No such file or directory
+cat: 見出し3: No such file or directory
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 12:46:35)
+$ scala pipe_test.scala
+見出し1	header2	見出し3oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 12:47:02)
+$ scala pipe_test.scala
+見出し1	header2	見出し3
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 12:47:14)
+$ scala pipe_test.scala
+warning: there was one feature warning; re-run with -feature for details
+one warning found
+見出し1 header2 見出し3
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 12:48:50)
+$ scala -feature pipe_test.scala
+/Users/oogasawa/works/sc_user/pipe_test.scala:7: warning: postfix operator ! should be enabled
+by making the implicit value scala.language.postfixOps visible.
+This can be achieved by adding the import clause 'import scala.language.postfixOps'
+or by setting the compiler option -language:postfixOps.
+See the Scaladoc for value scala.language.postfixOps for a discussion
+why the feature should be explicitly enabled.
+("echo " + header.mkString("\t")) !
+                                  ^
+one warning found
+見出し1 header2 見出し3
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 12:49:14)
+$ scala -language:postfixOps pipe_test.scala
+見出し1 header2 見出し3
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 12:49:54)
+$ scala -language:postfixOps pipe_test.scala
+見出し1 header2 3
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 12:50:12)
+$ scala -language:postfixOps pipe_test.scala
+/Users/oogasawa/works/sc_user/pipe_test.scala:7: error: not found: type File
+("echo " + header.mkString("\t")) #> new File("test.out") !
+                                         ^
+one error found
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 12:50:47)
+$ scala -language:postfixOps pipe_test.scala
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 12:53:25)
+$ ls
+20170509_alluser.txt	pipe_test.scala		pipe_test.scala~	test.out
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 12:53:27)
+$ scala -language:postfixOps pipe_test.scala
+cat: 見出し1: No such file or directory
+cat: header2: No such file or directory
+cat: 3: No such file or directory
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 12:55:29)
+$ scala -language:postfixOps pipe_test.scala
+/Users/oogasawa/works/sc_user/pipe_test.scala:9: error: ';' expected but 'new' found.
+ #> new File("test.out") !
+    ^
+one error found
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 12:56:07)
+$ scala -language:postfixOps pipe_test.scala
+見出し1	header2	3
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 12:56:16)
+$ scala -language:postfixOps pipe_test.scala
+見出し1	header2	3
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 12:56:42)
+$ scala -language:postfixOps pipe_test.scala
+見出し1 header2 3
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 12:57:02)
+$ echo 見出し1	header2	3
+見出し1 header2 3
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 12:58:00)
+$ echo 見出し1	header2	3
+見出し1 header2 3
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 12:59:30)
+$ scala -language:postfixOps pipe_test.scala
+-e 見出し1 header2 3
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 12:59:36)
+$ scala -language:postfixOps pipe_test.scala
+-e '見出し1 header2 3'
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 13:00:02)
+$ scala -language:postfixOps pipe_test.scala
+/Users/oogasawa/works/sc_user/pipe_test.scala:9: error: unclosed character literal
+("echo ", "-e", '" + header_str + "'") !
+                ^
+/Users/oogasawa/works/sc_user/pipe_test.scala:13: error: ')' expected but eof found.
+*/
+  ^
+two errors found
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 13:00:43)
+$ echo -e 見出し\t見出し
+見出しt見出し
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 13:02:52)
+$ echo -e "見出し\t見出し"
+見出し	見出し
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 13:02:58)
+$ scala -language:postfixOps pipe_test.scala
+/Users/oogasawa/works/sc_user/pipe_test.scala:9: error: ')' expected but string literal found.
+("echo -e" + \"" + header_str + "\"") !
+              ^
+one error found
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 13:03:47)
+$ scala -language:postfixOps pipe_test.scala
+-e 見出し1\theader2\t3
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 13:04:10)
+$ locate echo
+/Applications/GarageBand.app/Contents/Frameworks/MAResources.framework/Versions/A/Resources/nts_tracktypechooser_drums.tif
+/Applications/GarageBand.app/Contents/Frameworks/MAResources.framework/Versions/A/Resources/nts_tracktypechooser_drums@2x.tif
+/Applications/GarageBand.app/Contents/Frameworks/MAResources.framework/Versions/A/Resources/nts_tracktypechooser_drums_disabled.tif
+/Applications/GarageBand.app/Contents/Frameworks/MAResources.framework/Versions/A/Resources/nts_tracktypechooser_drums_disabled@2x.tif
+/Applications/GarageBand.app/Contents/Frameworks/MAResources.framework/Versions/A/Resources/nts_tracktypechooser_linein.tif
+/Applications/GarageBand.app/Contents/Frameworks/MAResources.framework/Versions/A/Resources/nts_tracktypechooser_linein@2x.tif
+/Applications/GarageBand.app/Contents/Frameworks/MAResources.framework/Versions/A/Resources/nts_tracktypechooser_mic.tif
+/Applications/GarageBand.app/Contents/Frameworks/MAResources.framework/Versions/A/Resources/nts_tracktypechooser_mic@2x.tif
+/Applications/GarageBand.app/Contents/Frameworks/MAResources.framework/Versions/A/Resources/nts_tracktypechooser_sw.tif
+/Applications/GarageBand.app/Contents/Frameworks/MAResources.framework/Versions/A/Resources/nts_tracktypechooser_sw@2x.tif
+/Applications/GarageBand.app/Contents/Frameworks/MAResourcesPlugInsShared.framework/Versions/A/Resources/pb_back_blueecho.tif
+/Applications/GarageBand.app/Contents/Frameworks/MAResourcesPlugInsShared.framework/Versions/A/Resources/pb_back_blueecho@2x.tif
+/Applications/GarageBand.app/Contents/Frameworks/MAResourcesPlugInsShared.framework/Versions/A/Resources/pb_icon_blueecho.tif
+/Applications/GarageBand.app/Contents/Frameworks/MAResourcesPlugInsShared.framework/Versions/A/Resources/pb_icon_blueecho@2x.tif
+/Applications/Inkscape.app/Contents/Resources/palettes/echo-palette.gpl
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/share/man/man1/echo.1
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/share/man/man1/echotc.1
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/share/man/man1/lessecho.1.gz
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/share/man/man3/echo.3x
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/share/man/man3/echo_wchar.3x
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/share/man/man3/echochar.3x
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/share/man/man3/noecho.3x
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/share/man/man3/pecho_wchar.3x
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/share/man/man3/pechochar.3x
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/share/man/man3/wecho_wchar.3x
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/share/man/man3/wechochar.3x
+/Applications/Xcode.app/Contents/Developer/usr/share/xcs/CouchDB/lib/couchdb/erlang/lib/mochiweb-1.4.1/ebin/mochiweb_echo.beam
+/Library/Frameworks/R.framework/Versions/3.0/Resources/share/sh/echo.sh
+/Library/Frameworks/R.framework/Versions/3.1/Resources/library/httpuv/demo/daemon-echo.R
+/Library/Frameworks/R.framework/Versions/3.1/Resources/library/httpuv/demo/echo.R
+/Library/Frameworks/R.framework/Versions/3.2/Resources/share/sh/echo.sh
+/Library/WebServer/share/httpd/manual/mod/mod_echo.html
+/Library/WebServer/share/httpd/manual/mod/mod_echo.html.en
+/Library/WebServer/share/httpd/manual/mod/mod_echo.html.fr
+/Library/WebServer/share/httpd/manual/mod/mod_echo.html.ja.utf8
+/Library/WebServer/share/httpd/manual/mod/mod_echo.html.ko.euc-kr
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/share/ri/2.0.0/system/Curses/echo-c.ri
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/share/ri/2.0.0/system/Curses/noecho-c.ri
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/share/ri/2.0.0/system/Gem/MockGemUi/TTY/noecho-i.ri
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/share/ri/2.0.0/system/IO/echo%3d-i.ri
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/share/ri/2.0.0/system/IO/echo%3f-i.ri
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/share/ri/2.0.0/system/IO/noecho-i.ri
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/share/ri/2.0.0/system/IRB/Context/echo%3f-i.ri
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/share/ri/2.0.0/system/IRB/Context/echo-i.ri
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/share/ri/2.0.0/system/Shell/CommandProcessor/echo-i.ri
+/System/Library/LaunchDaemons/com.apple.msrpc.echosvc.plist
+/System/Library/Tcl/8.4/tclx8.4/help/tcl/files/echo
+/System/Library/Tcl/8.5/tclx8.4/help/tcl/files/echo
+/Users/oogasawa/.emacs.d/elisp/yasnippet-snippets/makefile-bsdmake-mode/echo
+/Users/oogasawa/.emacs.d/emacs_config.0/yasnippet/snippets/makefile-bsdmake-mode/echo
+/Users/oogasawa/.pyenv/versions/3.5.1/lib/python3.5/test/test_asyncio/__pycache__/echo.cpython-35.opt-1.pyc
+/Users/oogasawa/.pyenv/versions/3.5.1/lib/python3.5/test/test_asyncio/__pycache__/echo.cpython-35.opt-2.pyc
+/Users/oogasawa/.pyenv/versions/3.5.1/lib/python3.5/test/test_asyncio/__pycache__/echo.cpython-35.pyc
+/Users/oogasawa/.pyenv/versions/3.5.1/lib/python3.5/test/test_asyncio/__pycache__/echo2.cpython-35.opt-1.pyc
+/Users/oogasawa/.pyenv/versions/3.5.1/lib/python3.5/test/test_asyncio/__pycache__/echo2.cpython-35.opt-2.pyc
+/Users/oogasawa/.pyenv/versions/3.5.1/lib/python3.5/test/test_asyncio/__pycache__/echo2.cpython-35.pyc
+/Users/oogasawa/.pyenv/versions/3.5.1/lib/python3.5/test/test_asyncio/__pycache__/echo3.cpython-35.opt-1.pyc
+/Users/oogasawa/.pyenv/versions/3.5.1/lib/python3.5/test/test_asyncio/__pycache__/echo3.cpython-35.opt-2.pyc
+/Users/oogasawa/.pyenv/versions/3.5.1/lib/python3.5/test/test_asyncio/__pycache__/echo3.cpython-35.pyc
+/Users/oogasawa/.pyenv/versions/3.5.1/lib/python3.5/test/test_asyncio/echo.py
+/Users/oogasawa/.pyenv/versions/3.5.1/lib/python3.5/test/test_asyncio/echo2.py
+/Users/oogasawa/.pyenv/versions/3.5.1/lib/python3.5/test/test_asyncio/echo3.py
+/Users/oogasawa/anaconda3/lib/python3.5/site-packages/statsmodels/datasets/modechoice
+/Users/oogasawa/anaconda3/lib/python3.5/site-packages/statsmodels/datasets/modechoice/__init__.py
+/Users/oogasawa/anaconda3/lib/python3.5/site-packages/statsmodels/datasets/modechoice/__pycache__
+/Users/oogasawa/anaconda3/lib/python3.5/site-packages/statsmodels/datasets/modechoice/__pycache__/__init__.cpython-35.pyc
+/Users/oogasawa/anaconda3/lib/python3.5/site-packages/statsmodels/datasets/modechoice/__pycache__/data.cpython-35.pyc
+/Users/oogasawa/anaconda3/lib/python3.5/site-packages/statsmodels/datasets/modechoice/data.py
+/Users/oogasawa/anaconda3/lib/python3.5/site-packages/statsmodels/datasets/modechoice/modechoice.csv
+/Users/oogasawa/anaconda3/pkgs/statsmodels-0.6.1-np111py35_1/lib/python3.5/site-packages/statsmodels/datasets/modechoice
+/Users/oogasawa/anaconda3/pkgs/statsmodels-0.6.1-np111py35_1/lib/python3.5/site-packages/statsmodels/datasets/modechoice/__init__.py
+/Users/oogasawa/anaconda3/pkgs/statsmodels-0.6.1-np111py35_1/lib/python3.5/site-packages/statsmodels/datasets/modechoice/__pycache__
+/Users/oogasawa/anaconda3/pkgs/statsmodels-0.6.1-np111py35_1/lib/python3.5/site-packages/statsmodels/datasets/modechoice/__pycache__/__init__.cpython-35.pyc
+/Users/oogasawa/anaconda3/pkgs/statsmodels-0.6.1-np111py35_1/lib/python3.5/site-packages/statsmodels/datasets/modechoice/__pycache__/data.cpython-35.pyc
+/Users/oogasawa/anaconda3/pkgs/statsmodels-0.6.1-np111py35_1/lib/python3.5/site-packages/statsmodels/datasets/modechoice/data.py
+/Users/oogasawa/anaconda3/pkgs/statsmodels-0.6.1-np111py35_1/lib/python3.5/site-packages/statsmodels/datasets/modechoice/modechoice.csv
+/bin/echo
+/usr/bin/lessecho
+/usr/lib/rpcsvc/echosvc.bundle
+/usr/libexec/apache2/mod_echo.so
+/usr/local/Cellar/ant/1.10.1/libexec/manual/Tasks/echo.html
+/usr/local/Cellar/ant/1.10.1/libexec/manual/Tasks/echoproperties.html
+/usr/local/Cellar/ant/1.10.1/libexec/manual/Tasks/echoxml.html
+/usr/local/Cellar/ant/1.9.7/libexec/manual/Tasks/echo.html
+/usr/local/Cellar/ant/1.9.7/libexec/manual/Tasks/echoproperties.html
+/usr/local/Cellar/ant/1.9.7/libexec/manual/Tasks/echoxml.html
+/usr/local/Cellar/couchdb/1.6.1_3/lib/couchdb/erlang/lib/mochiweb-1.4.1/ebin/mochiweb_echo.beam
+/usr/local/Cellar/couchdb/1.6.1_4/lib/couchdb/erlang/lib/mochiweb-1.4.1/ebin/mochiweb_echo.beam
+/usr/local/Cellar/couchdb/1.6.1_6/lib/couchdb/erlang/lib/mochiweb-1.4.1/ebin/mochiweb_echo.beam
+/usr/local/Cellar/couchdb/1.6.1_9/lib/couchdb/erlang/lib/mochiweb-1.4.1/ebin/mochiweb_echo.beam
+/usr/local/Cellar/erlang/17.5/lib/erlang/lib/inets-5.10.6/examples/server_root/htdocs/echo.shtml
+/usr/local/Cellar/erlang/18.1/lib/erlang/lib/inets-6.0.1/examples/server_root/htdocs/echo.shtml
+/usr/local/Cellar/erlang/19.0.2/lib/erlang/lib/inets-6.3.1/examples/server_root/htdocs/echo.shtml
+/usr/local/Cellar/erlang/19.2/lib/erlang/lib/inets-6.3.4/examples/server_root/htdocs/echo.shtml
+/usr/local/Cellar/erlang/19.2.3/lib/erlang/lib/inets-6.3.5/examples/server_root/htdocs/echo.shtml
+/usr/local/Cellar/erlang/19.3/lib/erlang/lib/inets-6.3.6/examples/server_root/htdocs/echo.shtml
+/usr/local/Cellar/giflib/5.1.4/bin/gifecho
+/usr/local/Cellar/gtk+/2.24.25/include/gtk-2.0/gtk/gtkfilechooser.h
+/usr/local/Cellar/gtk+/2.24.25/include/gtk-2.0/gtk/gtkfilechooserbutton.h
+/usr/local/Cellar/gtk+/2.24.25/include/gtk-2.0/gtk/gtkfilechooserdialog.h
+/usr/local/Cellar/gtk+/2.24.25/include/gtk-2.0/gtk/gtkfilechooserwidget.h
+/usr/local/Cellar/gtk+/2.24.25/share/gtk-doc/html/gtk2/filechooser.png
+/usr/local/Cellar/gtk+/2.24.25/share/gtk-doc/html/gtk2/gtkfilechooser-installing-extra-widgets.html
+/usr/local/Cellar/gtk+/2.24.25/share/gtk-doc/html/gtk2/gtkfilechooser-installing-preview.html
+/usr/local/Cellar/gtk+/2.24.25/share/gtk-doc/html/gtk2/gtkfilechooser-new-features.html
+/usr/local/Cellar/gtk+/2.24.25/share/gtk-doc/html/gtk2/gtkfilechooser-selection-modes.html
+/usr/local/Cellar/gtk+/2.24.28_3/include/gtk-2.0/gtk/gtkfilechooser.h
+/usr/local/Cellar/gtk+/2.24.28_3/include/gtk-2.0/gtk/gtkfilechooserbutton.h
+/usr/local/Cellar/gtk+/2.24.28_3/include/gtk-2.0/gtk/gtkfilechooserdialog.h
+/usr/local/Cellar/gtk+/2.24.28_3/include/gtk-2.0/gtk/gtkfilechooserwidget.h
+/usr/local/Cellar/gtk+/2.24.28_3/share/gtk-doc/html/gtk2/filechooser.png
+/usr/local/Cellar/gtk+/2.24.28_3/share/gtk-doc/html/gtk2/gtkfilechooser-installing-extra-widgets.html
+/usr/local/Cellar/gtk+/2.24.28_3/share/gtk-doc/html/gtk2/gtkfilechooser-installing-preview.html
+/usr/local/Cellar/gtk+/2.24.28_3/share/gtk-doc/html/gtk2/gtkfilechooser-new-features.html
+/usr/local/Cellar/gtk+/2.24.28_3/share/gtk-doc/html/gtk2/gtkfilechooser-selection-modes.html
+/usr/local/Cellar/gtk+/2.24.31/include/gtk-2.0/gtk/gtkfilechooser.h
+/usr/local/Cellar/gtk+/2.24.31/include/gtk-2.0/gtk/gtkfilechooserbutton.h
+/usr/local/Cellar/gtk+/2.24.31/include/gtk-2.0/gtk/gtkfilechooserdialog.h
+/usr/local/Cellar/gtk+/2.24.31/include/gtk-2.0/gtk/gtkfilechooserwidget.h
+/usr/local/Cellar/gtk+/2.24.31/share/gtk-doc/html/gtk2/filechooser.png
+/usr/local/Cellar/gtk+/2.24.31/share/gtk-doc/html/gtk2/gtkfilechooser-installing-extra-widgets.html
+/usr/local/Cellar/gtk+/2.24.31/share/gtk-doc/html/gtk2/gtkfilechooser-installing-preview.html
+/usr/local/Cellar/gtk+/2.24.31/share/gtk-doc/html/gtk2/gtkfilechooser-new-features.html
+/usr/local/Cellar/gtk+/2.24.31/share/gtk-doc/html/gtk2/gtkfilechooser-selection-modes.html
+/usr/local/Cellar/gtk+/2.24.31_1/include/gtk-2.0/gtk/gtkfilechooser.h
+/usr/local/Cellar/gtk+/2.24.31_1/include/gtk-2.0/gtk/gtkfilechooserbutton.h
+/usr/local/Cellar/gtk+/2.24.31_1/include/gtk-2.0/gtk/gtkfilechooserdialog.h
+/usr/local/Cellar/gtk+/2.24.31_1/include/gtk-2.0/gtk/gtkfilechooserwidget.h
+/usr/local/Cellar/gtk+/2.24.31_1/share/gtk-doc/html/gtk2/filechooser.png
+/usr/local/Cellar/gtk+/2.24.31_1/share/gtk-doc/html/gtk2/gtkfilechooser-installing-extra-widgets.html
+/usr/local/Cellar/gtk+/2.24.31_1/share/gtk-doc/html/gtk2/gtkfilechooser-installing-preview.html
+/usr/local/Cellar/gtk+/2.24.31_1/share/gtk-doc/html/gtk2/gtkfilechooser-new-features.html
+/usr/local/Cellar/gtk+/2.24.31_1/share/gtk-doc/html/gtk2/gtkfilechooser-selection-modes.html
+/usr/local/Cellar/gtk+3/3.18.5/include/gtk-3.0/gtk/gtkfilechooser.h
+/usr/local/Cellar/gtk+3/3.18.5/include/gtk-3.0/gtk/gtkfilechooserbutton.h
+/usr/local/Cellar/gtk+3/3.18.5/include/gtk-3.0/gtk/gtkfilechooserdialog.h
+/usr/local/Cellar/gtk+3/3.18.5/include/gtk-3.0/gtk/gtkfilechooserwidget.h
+/usr/local/Cellar/gtk+3/3.18.5/share/gtk-doc/html/gtk3/filechooser.png
+/usr/local/Cellar/gtk+3/3.20.9/include/gtk-3.0/gtk/gtkfilechooser.h
+/usr/local/Cellar/gtk+3/3.20.9/include/gtk-3.0/gtk/gtkfilechooserbutton.h
+/usr/local/Cellar/gtk+3/3.20.9/include/gtk-3.0/gtk/gtkfilechooserdialog.h
+/usr/local/Cellar/gtk+3/3.20.9/include/gtk-3.0/gtk/gtkfilechoosernative.h
+/usr/local/Cellar/gtk+3/3.20.9/include/gtk-3.0/gtk/gtkfilechooserwidget.h
+/usr/local/Cellar/gtk+3/3.20.9/share/gtk-doc/html/gtk3/filechooser.png
+/usr/local/Cellar/gtk+3/3.22.10/include/gtk-3.0/gtk/gtkfilechooser.h
+/usr/local/Cellar/gtk+3/3.22.10/include/gtk-3.0/gtk/gtkfilechooserbutton.h
+/usr/local/Cellar/gtk+3/3.22.10/include/gtk-3.0/gtk/gtkfilechooserdialog.h
+/usr/local/Cellar/gtk+3/3.22.10/include/gtk-3.0/gtk/gtkfilechoosernative.h
+/usr/local/Cellar/gtk+3/3.22.10/include/gtk-3.0/gtk/gtkfilechooserwidget.h
+/usr/local/Cellar/gtk+3/3.22.10/share/gtk-doc/html/gtk3/filechooser.png
+/usr/local/Cellar/gtk+3/3.22.11/include/gtk-3.0/gtk/gtkfilechooser.h
+/usr/local/Cellar/gtk+3/3.22.11/include/gtk-3.0/gtk/gtkfilechooserbutton.h
+/usr/local/Cellar/gtk+3/3.22.11/include/gtk-3.0/gtk/gtkfilechooserdialog.h
+/usr/local/Cellar/gtk+3/3.22.11/include/gtk-3.0/gtk/gtkfilechoosernative.h
+/usr/local/Cellar/gtk+3/3.22.11/include/gtk-3.0/gtk/gtkfilechooserwidget.h
+/usr/local/Cellar/gtk+3/3.22.11/share/gtk-doc/html/gtk3/filechooser.png
+/usr/local/Cellar/gtk+3/3.22.8/include/gtk-3.0/gtk/gtkfilechooser.h
+/usr/local/Cellar/gtk+3/3.22.8/include/gtk-3.0/gtk/gtkfilechooserbutton.h
+/usr/local/Cellar/gtk+3/3.22.8/include/gtk-3.0/gtk/gtkfilechooserdialog.h
+/usr/local/Cellar/gtk+3/3.22.8/include/gtk-3.0/gtk/gtkfilechoosernative.h
+/usr/local/Cellar/gtk+3/3.22.8/include/gtk-3.0/gtk/gtkfilechooserwidget.h
+/usr/local/Cellar/gtk+3/3.22.8/share/gtk-doc/html/gtk3/filechooser.png
+/usr/local/Cellar/gtk+3/3.22.9/include/gtk-3.0/gtk/gtkfilechooser.h
+/usr/local/Cellar/gtk+3/3.22.9/include/gtk-3.0/gtk/gtkfilechooserbutton.h
+/usr/local/Cellar/gtk+3/3.22.9/include/gtk-3.0/gtk/gtkfilechooserdialog.h
+/usr/local/Cellar/gtk+3/3.22.9/include/gtk-3.0/gtk/gtkfilechoosernative.h
+/usr/local/Cellar/gtk+3/3.22.9/include/gtk-3.0/gtk/gtkfilechooserwidget.h
+/usr/local/Cellar/gtk+3/3.22.9/share/gtk-doc/html/gtk3/filechooser.png
+/usr/local/Cellar/pyenv/1.0.1/test/libexec/pyenv-echo
+/usr/local/Cellar/pyenv/1.0.10/test/libexec/pyenv-echo
+/usr/local/Cellar/pyenv/1.0.8/test/libexec/pyenv-echo
+/usr/local/Cellar/pyenv/20160202/test/libexec/pyenv-echo
+/usr/local/Cellar/python/2.7.10_2/share/python/Extras/Demo/sockets/echosvr.py
+/usr/local/Cellar/python/2.7.10_2/share/python/Extras/Demo/sockets/udpecho.py
+/usr/local/Cellar/python/2.7.12/share/python/Extras/Demo/sockets/echosvr.py
+/usr/local/Cellar/python/2.7.12/share/python/Extras/Demo/sockets/udpecho.py
+/usr/local/Cellar/python/2.7.13/share/python/Extras/Demo/sockets/echosvr.py
+/usr/local/Cellar/python/2.7.13/share/python/Extras/Demo/sockets/udpecho.py
+/usr/local/Cellar/python/2.7.9/share/python/Extras/Demo/sockets/echosvr.py
+/usr/local/Cellar/python/2.7.9/share/python/Extras/Demo/sockets/udpecho.py
+/usr/local/Cellar/python3/3.4.2_1/Frameworks/Python.framework/Versions/3.4/lib/python3.4/test/test_asyncio/__pycache__/echo.cpython-34.pyo
+/usr/local/Cellar/python3/3.4.2_1/Frameworks/Python.framework/Versions/3.4/lib/python3.4/test/test_asyncio/__pycache__/echo2.cpython-34.pyo
+/usr/local/Cellar/python3/3.4.2_1/Frameworks/Python.framework/Versions/3.4/lib/python3.4/test/test_asyncio/__pycache__/echo3.cpython-34.pyo
+/usr/local/Cellar/python3/3.4.2_1/Frameworks/Python.framework/Versions/3.4/lib/python3.4/test/test_asyncio/echo.py
+/usr/local/Cellar/python3/3.4.2_1/Frameworks/Python.framework/Versions/3.4/lib/python3.4/test/test_asyncio/echo2.py
+/usr/local/Cellar/python3/3.4.2_1/Frameworks/Python.framework/Versions/3.4/lib/python3.4/test/test_asyncio/echo3.py
+/usr/local/Cellar/python3/3.5.0/Frameworks/Python.framework/Versions/3.5/lib/python3.5/test/test_asyncio/echo.py
+/usr/local/Cellar/python3/3.5.0/Frameworks/Python.framework/Versions/3.5/lib/python3.5/test/test_asyncio/echo2.py
+/usr/local/Cellar/python3/3.5.0/Frameworks/Python.framework/Versions/3.5/lib/python3.5/test/test_asyncio/echo3.py
+/usr/local/Cellar/python3/3.5.1/Frameworks/Python.framework/Versions/3.5/lib/python3.5/test/test_asyncio/echo.py
+/usr/local/Cellar/python3/3.5.1/Frameworks/Python.framework/Versions/3.5/lib/python3.5/test/test_asyncio/echo2.py
+/usr/local/Cellar/python3/3.5.1/Frameworks/Python.framework/Versions/3.5/lib/python3.5/test/test_asyncio/echo3.py
+/usr/local/Cellar/python3/3.5.2_1/Frameworks/Python.framework/Versions/3.5/lib/python3.5/test/test_asyncio/echo.py
+/usr/local/Cellar/python3/3.5.2_1/Frameworks/Python.framework/Versions/3.5/lib/python3.5/test/test_asyncio/echo2.py
+/usr/local/Cellar/python3/3.5.2_1/Frameworks/Python.framework/Versions/3.5/lib/python3.5/test/test_asyncio/echo3.py
+/usr/local/Cellar/python3/3.6.0/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/__pycache__/echo.cpython-36.opt-1.pyc
+/usr/local/Cellar/python3/3.6.0/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/__pycache__/echo.cpython-36.opt-2.pyc
+/usr/local/Cellar/python3/3.6.0/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/__pycache__/echo.cpython-36.pyc
+/usr/local/Cellar/python3/3.6.0/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/__pycache__/echo2.cpython-36.opt-1.pyc
+/usr/local/Cellar/python3/3.6.0/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/__pycache__/echo2.cpython-36.opt-2.pyc
+/usr/local/Cellar/python3/3.6.0/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/__pycache__/echo2.cpython-36.pyc
+/usr/local/Cellar/python3/3.6.0/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/__pycache__/echo3.cpython-36.opt-1.pyc
+/usr/local/Cellar/python3/3.6.0/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/__pycache__/echo3.cpython-36.opt-2.pyc
+/usr/local/Cellar/python3/3.6.0/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/__pycache__/echo3.cpython-36.pyc
+/usr/local/Cellar/python3/3.6.0/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/echo.py
+/usr/local/Cellar/python3/3.6.0/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/echo2.py
+/usr/local/Cellar/python3/3.6.0/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/echo3.py
+/usr/local/Cellar/python3/3.6.0_1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/__pycache__/echo.cpython-36.opt-1.pyc
+/usr/local/Cellar/python3/3.6.0_1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/__pycache__/echo.cpython-36.opt-2.pyc
+/usr/local/Cellar/python3/3.6.0_1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/__pycache__/echo.cpython-36.pyc
+/usr/local/Cellar/python3/3.6.0_1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/__pycache__/echo2.cpython-36.opt-1.pyc
+/usr/local/Cellar/python3/3.6.0_1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/__pycache__/echo2.cpython-36.opt-2.pyc
+/usr/local/Cellar/python3/3.6.0_1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/__pycache__/echo2.cpython-36.pyc
+/usr/local/Cellar/python3/3.6.0_1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/__pycache__/echo3.cpython-36.opt-1.pyc
+/usr/local/Cellar/python3/3.6.0_1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/__pycache__/echo3.cpython-36.opt-2.pyc
+/usr/local/Cellar/python3/3.6.0_1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/__pycache__/echo3.cpython-36.pyc
+/usr/local/Cellar/python3/3.6.0_1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/echo.py
+/usr/local/Cellar/python3/3.6.0_1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/echo2.py
+/usr/local/Cellar/python3/3.6.0_1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/echo3.py
+/usr/local/Cellar/python3/3.6.1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/__pycache__/echo.cpython-36.opt-1.pyc
+/usr/local/Cellar/python3/3.6.1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/__pycache__/echo.cpython-36.opt-2.pyc
+/usr/local/Cellar/python3/3.6.1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/__pycache__/echo.cpython-36.pyc
+/usr/local/Cellar/python3/3.6.1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/__pycache__/echo2.cpython-36.opt-1.pyc
+/usr/local/Cellar/python3/3.6.1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/__pycache__/echo2.cpython-36.opt-2.pyc
+/usr/local/Cellar/python3/3.6.1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/__pycache__/echo2.cpython-36.pyc
+/usr/local/Cellar/python3/3.6.1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/__pycache__/echo3.cpython-36.opt-1.pyc
+/usr/local/Cellar/python3/3.6.1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/__pycache__/echo3.cpython-36.opt-2.pyc
+/usr/local/Cellar/python3/3.6.1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/__pycache__/echo3.cpython-36.pyc
+/usr/local/Cellar/python3/3.6.1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/echo.py
+/usr/local/Cellar/python3/3.6.1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/echo2.py
+/usr/local/Cellar/python3/3.6.1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/test/test_asyncio/echo3.py
+/usr/local/Cellar/qt/5.8.0_1/plugins/texttospeech/libqtexttospeech_speechosx.dylib
+/usr/local/Cellar/qt/5.8.0_2/plugins/texttospeech/libqtexttospeech_speechosx.dylib
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/Formula/echoprint-codegen.rb
+/usr/local/apache-tomcat-8.0.5/webapps/examples/WEB-INF/classes/websocket/echo
+/usr/local/apache-tomcat-8.0.5/webapps/examples/WEB-INF/classes/websocket/echo/EchoAnnotation.class
+/usr/local/apache-tomcat-8.0.5/webapps/examples/WEB-INF/classes/websocket/echo/EchoAnnotation.java
+/usr/local/apache-tomcat-8.0.5/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint$1.class
+/usr/local/apache-tomcat-8.0.5/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint$EchoMessageHandlerBinary.class
+/usr/local/apache-tomcat-8.0.5/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint$EchoMessageHandlerText.class
+/usr/local/apache-tomcat-8.0.5/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint.class
+/usr/local/apache-tomcat-8.0.5/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint.java
+/usr/local/apache-tomcat-8.0.5/webapps/examples/websocket/echo.xhtml
+/usr/local/bin/gifecho
+/usr/local/texlive/2013/texmf-dist/fonts/opentype/public/tex-gyre/texgyrechorus-mediumitalic.otf
+/usr/local/texlive/2013/texmf-dist/tex/xelatex/xepersian/xepersian-multiplechoice.sty
+/usr/local/texlive/2016/texmf-dist/fonts/opentype/public/tex-gyre/texgyrechorus-mediumitalic.otf
+/usr/local/texlive/2016/texmf-dist/tex/xelatex/xepersian/xepersian-multiplechoice.sty
+/usr/share/emacs/22.1/etc/echo.msg
+/usr/share/man/man1/echo.1
+/usr/share/man/man1/echotc.1
+/usr/share/man/man1/lessecho.1.gz
+/usr/share/zsh/5.2/functions/_echotc
+/usr/share/zsh/5.2/functions/_echoti
+/usr/share/zsh/5.2/help/echo
+/usr/share/zsh/5.2/help/echotc
+/usr/share/zsh/5.2/help/echoti
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 13:04:33)
+$ ls /bin | grep echo
+echo
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 13:04:46)
+$ echo -e "見出し1\t2"
+見出し1	2
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 13:05:31)
+$ echo -e "見出し1\t2"
+見出し1	2
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 13:05:52)
+$ scala -language:postfixOps pipe_test.scala
+-e "見出し1\theader2\t3"
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 13:05:58)
+$ which echo
+/bin/echo
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 13:06:36)
+$ scala -language:postfixOps pipe_test.scala
+-e "見出し1\theader2\t3"
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 13:06:50)
+$ scala -language:postfixOps pipe_test.scala
+-e 見出し1\theader2\t3
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 13:08:26)
+$ scala  pipe_test.scala
+warning: there was one feature warning; re-run with -feature for details
+one warning found
+-e 見出し1\theader2\t3
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 13:08:35)
+$ scala  pipe_test.scala
+warning: there was one feature warning; re-run with -feature for details
+one warning found
+-e 見出し1\theader2\t3
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 13:10:32)
+$ scala  pipe_test.scala
+warning: there was one deprecation warning (since 2.11.0); re-run with -deprecation for details
+warning: there was one feature warning; re-run with -feature for details
+two warnings found
+java.io.IOException: Cannot run program "-e 見出し1\theader2\t3": error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at scala.sys.process.ProcessBuilderImpl$Simple.run(ProcessBuilderImpl.scala:71)
+	at scala.sys.process.ProcessBuilderImpl$AbstractBuilder.run(ProcessBuilderImpl.scala:100)
+	at scala.sys.process.ProcessBuilderImpl$AbstractBuilder.$bang(ProcessBuilderImpl.scala:114)
+	at Main$$anon$1.<init>(pipe_test.scala:9)
+	at Main$.main(pipe_test.scala:1)
+	at Main.main(pipe_test.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at scala.reflect.internal.util.ScalaClassLoader.$anonfun$run$2(ScalaClassLoader.scala:98)
+	at scala.reflect.internal.util.ScalaClassLoader$$Lambda$118/971848845.apply(Unknown Source)
+	at scala.reflect.internal.util.ScalaClassLoader.asContext(ScalaClassLoader.scala:32)
+	at scala.reflect.internal.util.ScalaClassLoader.asContext$(ScalaClassLoader.scala:30)
+	at scala.reflect.internal.util.ScalaClassLoader$URLClassLoader.asContext(ScalaClassLoader.scala:129)
+	at scala.reflect.internal.util.ScalaClassLoader.run(ScalaClassLoader.scala:98)
+	at scala.reflect.internal.util.ScalaClassLoader.run$(ScalaClassLoader.scala:90)
+	at scala.reflect.internal.util.ScalaClassLoader$URLClassLoader.run(ScalaClassLoader.scala:129)
+	at scala.tools.nsc.CommonRunner.run(ObjectRunner.scala:22)
+	at scala.tools.nsc.CommonRunner.run$(ObjectRunner.scala:21)
+	at scala.tools.nsc.ObjectRunner$.run(ObjectRunner.scala:39)
+	at scala.tools.nsc.CommonRunner.runAndCatch(ObjectRunner.scala:29)
+	at scala.tools.nsc.CommonRunner.runAndCatch$(ObjectRunner.scala:28)
+	at scala.tools.nsc.ObjectRunner$.runAndCatch(ObjectRunner.scala:39)
+	at scala.tools.nsc.ScriptRunner.runCompiled(ScriptRunner.scala:170)
+	at scala.tools.nsc.ScriptRunner.$anonfun$runScript$1(ScriptRunner.scala:187)
+	at scala.tools.nsc.ScriptRunner.$anonfun$runScript$1$adapted(ScriptRunner.scala:187)
+	at scala.tools.nsc.ScriptRunner$$Lambda$99/1793329556.apply(Unknown Source)
+	at scala.tools.nsc.ScriptRunner.$anonfun$withCompiledScript$2(ScriptRunner.scala:156)
+	at scala.tools.nsc.ScriptRunner.runScript(ScriptRunner.scala:124)
+	at scala.tools.nsc.ScriptRunner.runScriptAndCatch(ScriptRunner.scala:200)
+	at scala.tools.nsc.MainGenericRunner.runTarget$1(MainGenericRunner.scala:63)
+	at scala.tools.nsc.MainGenericRunner.run$1(MainGenericRunner.scala:88)
+	at scala.tools.nsc.MainGenericRunner.process(MainGenericRunner.scala:99)
+	at scala.tools.nsc.MainGenericRunner$.main(MainGenericRunner.scala:104)
+	at scala.tools.nsc.MainGenericRunner.main(MainGenericRunner.scala)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:185)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 36 more
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 13:11:05)
+$ scala  pipe_test.scala
+warning: there was one feature warning; re-run with -feature for details
+one warning found
+-e 見出し1\theader2\t3
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 13:11:23)
+$ scala  pipe_test.scala
+/Users/oogasawa/works/sc_user/pipe_test.scala:9: error: ';' expected but ')' found.
+Process("echo -e \"" + header_str + "\""))  !
+                                         ^
+one error found
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 13:14:31)
+$ scala  pipe_test.scala
+warning: there was one feature warning; re-run with -feature for details
+one warning found
+-e "見出し1\theader2\t3"
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 13:14:39)
+$ scala  pipe_test.scala
+warning: there was one feature warning; re-run with -feature for details
+one warning found
+"見出し1\theader2\t3"
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 13:15:17)
+$ chmod +x ~/works/df_tools/
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 21:05:40)
+$ echo.pl "見出し1\theader2\t3"
+bash: /Users/oogasawa/works/df_tools/echo.pl: Permission denied
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 21:05:54)
+$ ls -F ~/works/df_tools/
+#freq.pl#*		get_row_from.pl*	merge.pl*		set_unique.pl*
+echo.pl			get_subpattern.pl*	merge_column.pl*	substitute.pl*
+echo.pl~		grep.pl*		merge_tandem.pl*	table_collapse.pl*
+freq.pl*		hello.scala*		sbt-launch.jar*
+get.pl*			hello.scala~		scalas*
+get_pattern.pl*		join.pl*		scalas~
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 21:06:17)
+$ chmod +x ~/works/df_tools/*
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 21:06:25)
+$ echo.pl "見出し1\theader2\t3"
+Bareword "i" not allowed while "strict subs" in use at /Users/oogasawa/works/df_tools/echo.pl line 19.
+Execution of /Users/oogasawa/works/df_tools/echo.pl aborted due to compilation errors.
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 21:06:29)
+$ echo.pl "見出し1\theader2\t3"
+
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 21:06:39)
+$ echo.pl "見出し1\theader2\t3"
+見出し1\theader2\t3
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 21:06:52)
+$ scala pipe_test.scala
+warning: there was one feature warning; re-run with -feature for details
+one warning found
+見出し1	header2	3
+"見出し1 header2 3"
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 21:08:14)
+$ scala pipe_test.scala
+warning: there was one feature warning; re-run with -feature for details
+one warning found
+見出し1	header2	3
+"見出し1header23"
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 21:08:31)
+$ scala pipe_test.scala
+warning: there was one feature warning; re-run with -feature for details
+one warning found
+見出し1	header2	3
+'見出し1header23'
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 21:09:08)
+$ scala pipe_test.scala
+warning: there was one feature warning; re-run with -feature for details
+one warning found
+見出し1	header2	3
+'見出し1header23'
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 21:10:43)
+$ scala pipe_test.scala
+warning: there was one feature warning; re-run with -feature for details
+one warning found
+見出し1\theader2\t3
+'見出し1\theader2\t3'
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 21:11:04)
+$ scala pipe_test.scala
+warning: there was one feature warning; re-run with -feature for details
+one warning found
+見出し1\theader2\t3
+Scalar found where operator expected at /Users/oogasawa/works/df_tools/echo.pl line 16, near "'\t' $ARGV"
+	(Missing operator before  $ARGV?)
+syntax error at /Users/oogasawa/works/df_tools/echo.pl line 16, near "'\t' $ARGV"
+Global symbol "@s" requires explicit package name at /Users/oogasawa/works/df_tools/echo.pl line 17.
+Execution of /Users/oogasawa/works/df_tools/echo.pl aborted due to compilation errors.
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 21:12:41)
+$ scala pipe_test.scala
+warning: there was one feature warning; re-run with -feature for details
+one warning found
+見出し1\theader2\t3
+'見出し1\theader2\t3'
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 21:13:01)
+$ scala pipe_test.scala
+warning: there was one feature warning; re-run with -feature for details
+one warning found
+見出し1\theader2\t3
+'見出し1	header2	3'
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 21:14:00)
+$ scala pipe_test.scala
+/Users/oogasawa/works/sc_user/pipe_test.scala:9: error: unclosed string literal
+"echo.pl + header_str   !
+^
+one error found
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 21:14:49)
+$ scala pipe_test.scala
+warning: there was one feature warning; re-run with -feature for details
+one warning found
+見出し1\theader2\t3
+見出し1	header2	3
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 21:15:01)
+$ scala pipe_test.scala
+warning: there was one feature warning; re-run with -feature for details
+one warning found
+見出 し1\theader2\t3
+
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 21:16:03)
+$ scala pipe_test.scala
+warning: there was one feature warning; re-run with -feature for details
+one warning found
+見出 し1\theader2\t3
+見出 し1	header2	3
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 21:16:35)
+$ scala pipe_test.scala
+/Users/oogasawa/works/sc_user/pipe_test.scala:5: error: unclosed string literal
+val header_str  =  "# # + header.mkString("\\t")
+                                               ^
+one error found
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 21:17:12)
+$ scala pipe_test.scala
+warning: there was one feature warning; re-run with -feature for details
+one warning found
+# 見出 し1	header2	3
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 21:17:21)
+$ chmod +x ~/works/df_tools/*
+oogasawa@192-168-11-103.maas:~/works/sc_user (2017-05-16 21:55:57)
+$ setup_mac.sh
+Updated 3 taps (caskroom/cask, homebrew/core, homebrew/science).
+==> New Formulae
+chronograf
+==> Updated Formulae
+aws-sdk-cpp                       halibut                           sysbench
+awscli                            homebrew/science/dealii           sysdig
+elixir                            homebrew/science/etsf_io          tbb ✔
+fades                             homebrew/science/openimageio      telegraf
+folly                             homebrew/science/topcat           vagrant-completion
+glib ✔                            homebrew/science/xmi-msim         yarn
+gnupg                             libfabric
+gobject-introspection ✔           luvit
+Error: gcc@4.8 from homebrew/core is given, but old name gcc48 was installed from homebrew-versions/gcc48.
+
+Please try to use fully-qualified homebrew-versions/gcc48/gcc48 to refer the formula.
+To force migrate use `brew migrate --force gcc48`.
+Error: maven@3.1 from homebrew/core is given, but old name maven31 was installed from homebrew-versions/maven31.
+
+Please try to use fully-qualified homebrew-versions/maven31/maven31 to refer the formula.
+To force migrate use `brew migrate --force maven31`.
+Error: mysql@5.5 from homebrew/core is given, but old name mysql55 was installed from homebrew-versions/mysql55.
+
+Please try to use fully-qualified homebrew-versions/mysql55/mysql55 to refer the formula.
+To force migrate use `brew migrate --force mysql55`.
+==> Upgrading 18 outdated packages, with result:
+homebrew/science/arpack 3.4.0_1, docker 17.05.0, homebrew/science/dotwrp 1.1_2, freetype 2.8, gcc 7.1.0, glib 2.52.2, gobject-introspection 1.52.1, homebrew/science/hdf5 1.10.1, homebrew/science/matplotlib 2.0.2, mercurial 4.2, mysql 5.7.18_1, homebrew/science/qrupdate 1.1.2_6, scipy 0.19.0_1, sdl_ttf 2.0.11_1, subversion 1.9.5_2, tbb 2017_U6, homebrew/science/veclibfort 0.4.2_4, youtube-dl 2017.05.14
+==> Upgrading homebrew/science/arpack 
+==> Installing dependencies for homebrew/science/arpack: gcc, veclibfort
+==> Installing homebrew/science/arpack dependency: gcc
+Warning: Building gcc from source:
+  The bottle needs the Xcode CLT to be installed.
+==> Using the sandbox
+==> Downloading https://ftp.gnu.org/gnu/gcc/gcc-7.1.0/gcc-7.1.0.tar.bz2
+############################################################################################## 100.0%

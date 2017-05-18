@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# http://qiita.com/chidakiyo/items/356a718309839fd1407a
+## ただし標準入力を受け取るスクリプトはこれでは書けないことに注意。
+java -Dsbt.main.class=sbt.ScriptMain -Dsbt.boot.directory=$HOME/.sbt/boot -jar `dirname $0`/sbt-launch.jar "$@"
+
