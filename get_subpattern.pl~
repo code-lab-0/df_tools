@@ -4,7 +4,7 @@
     
 =head1 NAME
 	
- get_subpattern.pl - 
+ get_subpattern.plx - 
 
 =head1 SYNOPSIS
     
@@ -23,7 +23,8 @@
     Print a brief help message and exits.
     
 =item B<-man>
-        
+    
+    
     Prints the manual page and exits.
     
 =back
@@ -31,6 +32,15 @@
 =head1 DESCRIPTION
     
 =head2 Get specified columns
+
+  cat table.txt | get.plx -col=0:2:3:7 > result.out
+  cat table.txt | get.plx -col=0-3:7:10- > result.out
+
+  cat table.txt | get.plx -cond="(@2 eq 'biological_process')"
+  cat table.txt | get.plx -cond='[14:15]a(@==1)'
+
+  # get lines from the top until the line which matches the pattern.
+  cat text.txt  | get.plx -until="^the\s*pattern"
     
 =cut
 
@@ -40,20 +50,11 @@ use Pod::Usage;
 
 main();
 
-
-sub main {
-    my %opts = analyze_args();
-   
-    get_subpattern($opts{pattern}, $opts{n});
-    
-}
-
-
 sub analyze_args {
     my %opts = (n=>10);
 
     my $result = GetOptions(\%opts, "help!", "man!",
-							"n=i",
+			    "n=i",
                             "p=s",
                             "pattern=s") or pod2usage(2);
     
@@ -67,6 +68,13 @@ sub analyze_args {
     return %opts;
 }
 
+
+sub main {
+    my %opts = analyze_args();
+   
+    get_subpattern($opts{pattern}, $opts{n});
+    
+}
 
 
 sub get_subpattern {

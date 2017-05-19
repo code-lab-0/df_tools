@@ -19,7 +19,7 @@
 
 =head1 Example
 
-  cat yourfile | get_subpattern.pl -p='^(.+?):(.+?);(.+)'
+    cat yourfile | get_subpattern.pl -p='^(.+?):(.+?);(.+)'
 
 =over 8
     
@@ -51,16 +51,15 @@ main();
 sub main {
     my %opts = analyze_args();
    
-    get_subpatterns($opts{pattern}, $opts{n});
+    get_subpatterns($opts{p});
     
 }
 
 
 sub analyze_args {
-    my %opts = (n=>10);
+    my %opts = ();
 
-    my $result = GetOptions(\%opts, "help!", "man!",
-							"n=i@", "p=s") or pod2usage(2);
+    my $result = GetOptions(\%opts, "help!", "man!", "p=s") or pod2usage(2);
     
     pod2usage(1) if ($opts{help});
     pod2usage(-exitstatus=>0, -verbose=>2) if ( $opts{man} );
@@ -72,7 +71,6 @@ sub analyze_args {
 
 sub get_subpatterns {
     my $pattern = shift @_;
-    #my $n       = 10;
 
     while (<>) {
 		my @out = ();

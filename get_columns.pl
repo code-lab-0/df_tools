@@ -76,16 +76,17 @@ sub analyze_args {
 }
 
 
-# sub tab_split {
-#     my $line = shift @_;
+# TAB文字の連続に対応するってことか...
+sub tab_split {
+    my $line = shift @_;
 
-#     $line =~ s/\t/\t /g;
-#     my @a = split(/\t/, $line);
-#     for (my $i=1; $i<=$#a; $i++) {
-# 	$a[$i] = substr($a[$i], 1);
-#     }
-#     return @a;
-# }
+    $line =~ s/\t/\t /g;
+    my @a = split(/\t/, $line);
+    for (my $i=1; $i<=$#a; $i++) {
+	$a[$i] = substr($a[$i], 1);
+    }
+    return @a;
+}
 
 
 
@@ -94,8 +95,7 @@ sub get_column {
 
     while (<>) {
 		chomp;
-		#my @col = tab_split($_);
-		my @col = split /\t/, $_;
+		my @col = tab_split($_);
 		my @out = ();
 		my @idx = getIdx($range, $#col);
 		for (my $i=0; $i<=$#idx; $i++) {

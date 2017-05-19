@@ -4,16 +4,19 @@
     
 =head1 NAME
 	
- grep.plx - grep with Perl regular expression.
+ grep.pl - grep a given column with a Perl regular expression.
 
 =head1 SYNOPSIS
     
-  grep.plx [options] pattern filename
+  grep.pl [options] filename
 
   Options:
     -help            brief help message
     -man             full documentation
 
+    -p               regular expression
+    -col             column number to which the regex is applied.
+	-v               invert match.
 
 =head1 OPTIONS
     
@@ -30,9 +33,9 @@
     
 =back
     
-=head1 DESCRIPTION
+=head1 Example
     
-    grep.plx '\w+\[' filename.txt
+    cat yourfile.txt | grep.pl -col=1 -p='' 
     
 =cut
 
@@ -46,9 +49,10 @@ main();
 
 
 sub analyze_args {
-    my %opts = (not=>0);
+    my %opts = (v=>0);
 
-    my $result = GetOptions(\%opts, "help!", "man!") or pod2usage(2);
+    my $result = GetOptions(\%opts, "help!", "man!",
+		"p=s", "col=i", "v!" ) or pod2usage(2);
     
     pod2usage(1) if ($opts{help});
     pod2usage(-exitstatus=>0, -verbose=>2) if ( $opts{man} );
@@ -58,27 +62,92 @@ sub analyze_args {
 
 
 sub main {
-  my %opts = analyze_args();
+	my %opts = analyze_args();
+	my $pattern = $opts{p};
 
-  my $pattern = $ARGV[0];
-  if (defined($ARGV[1])) {
-      open(SESAME, $ARGV[1]);
-      while (<SESAME>) {
-	  if (/$pattern/) {
-	      print $_;
-	  }
-      }
-  }
-  else {
-      while (<STDIN>) {
-	  if (/$pattern/) {
-	      print $_;
-	  }
-      }
-  }
-  
+	if (defined($opts{v}) && defined($opts{col})) {
+		column_invert_match($pattern, $opts{col});
+	}
+	elsif (defined($opts{v}) && !defined($opts{col})) {
+		invert_match($pattern);
+	}
+	elsif (!defined($opts{v}) && defined($opts{col})) {
+		column_match($pattern, $opts{col});
+	}
+	elsif (!defined($opts{v}) && !defined($opts{col})) {
+		match($pattern);
+	}
 }
 
+
+
+sub column_invert_match {
+	my $pattern = shift @_;
+	my $col     = shift @_;
+	
+	while (<STDIN>) {
+		chomp;
+		my @c = tab_split($_);
+		if ($c[$col] !~ /$pattern/) {
+			print $_, "\n";
+		}
+	}  
+}
+
+
+
+sub invert_match {
+	my $pattern = shift @_;
+	
+	while (<STDIN>) {
+		chomp;
+		if ($_ !~ /$pattern/) {
+			print $_, "\n";
+		}
+	}  
+}
+
+
+sub column_match {
+	my $pattern = shift @_;
+	my $col     = shift @_;
+	
+	while (<STDIN>) {
+		chomp;
+		my @c = tab_split($_);
+		if ($c[$col] =~ /$pattern/) {
+			print $_;
+		}
+	}  
+}
+
+
+
+sub match {
+	my $pattern = shift @_;
+	
+	while (<STDIN>) {
+		chomp;
+		if (/$pattern/) {
+			print $_;
+		}
+	}  
+}
+
+
+
+
+# TAB文字の連続に対応するってことか...
+sub tab_split {
+    my $line = shift @_;
+
+    $line =~ s/\t/\t /g;
+    my @a = split(/\t/, $line);
+    for (my $i=1; $i<=$#a; $i++) {
+	$a[$i] = substr($a[$i], 1);
+    }
+    return @a;
+}
 
 
 __END__
