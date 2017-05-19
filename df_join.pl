@@ -29,16 +29,16 @@ sub main {
     my %opts = analyze_args();
 	my $t = $opts{target};
 	
-	my ($joined_data, $nCoumns) = read_file(@ARGV);
-	my %j = %$joined_data;
+	my ($joined_data_ref, $nCounts) = read_file(@ARGV);
 	my @NA = not_available($nCounts, $opts{NA});
 	while (<STDIN>) {
 		chomp;
 		my @c = tab_split($_);
-		if (defined($j{$c[$t]})) {
-			my @matched = @$j{$c[$t]};
+
+		if (defined($joined_data_ref->{$c[$t]})) {
+			my @matched = @{ $joined_data_ref->{ $c[$t]} };
 			for (my $i=0; $i<=$#matched; $i++) {
-				print join("\t", @c), "\t", join("\t", @$matched[$i]), "\n";
+				print join("\t", @c), "\t", join("\t", @{$matched[$i]}), "\n";
 			}
 		}
 		else {
@@ -58,14 +58,16 @@ sub read_file {
 		while (<SESAME>) {
 			chomp;
 			my @c = tab_split($_);
-
-			if (!defined($joined_data{$c[0]})) {
-				$joined_data{$c[0]} = ();
+			my $k = shift @c;
+			
+			if (!defined($joined_data{$k})) {
+				$joined_data{$k} = [];
 			}
-			push $joined_data{$c[0]}, shift(@c);			
+			push @{ $joined_data{$k} }, [ @c ];
 			$nCounts = $#c+1;
 		}
 	}
+	#print "test00\t", %joined_data , "\n";
 	return (\%joined_data, $nCounts);
 }
 
