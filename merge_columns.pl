@@ -28,14 +28,12 @@ sub main {
     while (<STDIN>) {
         my @r = ();
 	chomp;
-	my @c = tab_split($_);
-        for (my $i=0; $i<$opts{c}; $i++) {
-            push @r, shift @c;
+        my @c = split(/\t/, $_, -1);
+        foreach my $i (@{$opts{c}}) {
+            push @r, $c[$i];
         }
-        push @r, join("; ", @c);
-        print join("\t", @r), "\n";
+        print join("; ", @r), "\n";
     }
-    
 }
 
 #
@@ -46,17 +44,6 @@ sub main {
 #
 #-------------------------------------------------
 #
-
-sub tab_split {
-    my $line = shift @_;
-
-    $line =~ s/\t/\t /g;
-    my @a = split(/\t/, $line);
-    for (my $i=1; $i<=$#a; $i++) {
-	$a[$i] = substr($a[$i], 1);
-    }
-    return @a;
-}
 
 
 __END__
