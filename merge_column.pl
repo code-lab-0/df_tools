@@ -12,18 +12,11 @@ main();
 sub parseCommandLine {
     my %opts = (debug=>0, test=>0);
     
-    my $result = GetOptions(\%opts, "help!", "man!","c=i",
-			    "test!") or pod2usage(2);
-    
-    if ($opts{test}) {
-	test();
-	exit 0;
-    }
+    my $result = GetOptions(\%opts, "help!", "man!","c=i@") or pod2usage(2);
     
     pod2usage(1) if ($opts{help});
     pod2usage(-exitstatus=>0, -verbose=>2) if ( $opts{man} );
-    
-    
+        
     return %opts;
 }
 
@@ -65,17 +58,6 @@ sub tab_split {
     return @a;
 }
 
-sub test {
-    
-    # delaying use Test::More until test function is called.
-    my $testutil = $0;
-    $testutil =~ s/^(.*)\/(\w|\.)+/$1\/testutil.plxx/;
-    require $testutil;
-
-    my $test0 = 'dummy';
-    my $ans0  = $test0;
-    is($test0, $ans0);
-}
 
 __END__
 
@@ -85,7 +67,7 @@ __END__
     
 =head1 NAME
 	
- 00.plxx - A template of perl script.
+ merge_column.pl - A template of perl script.
 
 =head1 SYNOPSIS
     

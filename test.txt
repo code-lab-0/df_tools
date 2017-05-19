@@ -1,3 +1,0 @@
-# first column	second column	third column
-first column	second column	third column
-	  			third column

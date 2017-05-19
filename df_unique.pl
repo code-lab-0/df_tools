@@ -70,11 +70,11 @@ __END__
 
 =head1 NAME
 
-  df_unique.pl - unify rows of a data frame.
+  df_unique.pl - get rows with unique values from a data frame.
 
 =head1 SYNOPSYS
 
- cat datafile | remove_redundancy.plx > result.data
+ cat datafile | df_unique.pl > result.data
 
  Options:
    -help      brief help message
