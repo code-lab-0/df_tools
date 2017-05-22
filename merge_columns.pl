@@ -25,14 +25,14 @@ sub main {
     
     my %opts = parseCommandLine();
 
-    while (<STDIN>) {
+    while (<>) {
         my @r = ();
 	chomp;
         my @c = split(/\t/, $_, -1);
         foreach my $i (@{$opts{c}}) {
             push @r, $c[$i];
         }
-        print join("; ", @r), "\n";
+        print $c[0], "\t", join(";", @r), "\n";
     }
 }
 
