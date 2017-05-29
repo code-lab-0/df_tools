@@ -1,0 +1,293 @@
+CP002365	Lactococcus lactis subsp. lactis CV56, complete genome.
+CP002366	Lactococcus lactis subsp. lactis CV56 plasmid pCV56A, complete
+CP002367	Lactococcus lactis subsp. lactis CV56 plasmid pCV56B, complete
+CP002368	Lactococcus lactis subsp. lactis CV56 plasmid pCV56C, complete
+CP002369	Lactococcus lactis subsp. lactis CV56 plasmid pCV56D, complete
+CP002370	Lactococcus lactis subsp. lactis CV56 plasmid pCV56E, complete
+CP002371	Candidatus Liberibacter solanacearum CLso-ZC1, complete genome.
+CP002374	Treponema pallidum subsp. pertenue str. SamoaD, complete genome.
+CP002375	Treponema pallidum subsp. pertenue str. CDC2, complete genome.
+CP002376	Treponema pallidum subsp. pertenue str. Gauthier, complete genome.
+CP002377	Vibrio furnissii NCTC 11218 chromosome 1, complete sequence.
+CP002378	Vibrio furnissii NCTC 11218 chromosome 2, complete sequence.
+CP002379	Arthrobacter phenanthrenivorans Sphe3, complete genome.
+CP002380	Arthrobacter phenanthrenivorans Sphe3 plasmid pASPHE301, complete
+CP002381	Arthrobacter phenanthrenivorans Sphe3 plasmid pASPHE302, complete
+CP002382	Micavibrio aeruginosavorus ARL-13, complete genome.
+CP002385	Mycobacterium gilvum Spyr1, complete genome.
+CP002386	Mycobacterium gilvum Spyr1 plasmid pMSPYR101, complete sequence.
+CP002387	Mycobacterium gilvum Spyr1 plasmid pMSPYR102, complete sequence.
+CP002401	Chlamydia trachomatis A2497, complete genome.
+CP002402	Chlamydia trachomatis A2497 plasmid Plasmid0001, complete sequence.
+CP002408	Candidatus Nitrososphaera gargensis Ga9.2, complete genome.
+CP002409	Propionibacterium acnes 266, complete genome.
+CP002410	Clostridium botulinum BKT015925, complete genome.
+CP002411	Clostridium botulinum BKT015925 plasmid p1BKT015925, complete
+CP002412	Clostridium botulinum BKT015925 plasmid p2BKT015925, complete
+CP002413	Clostridium botulinum BKT015925 plasmid p3BKT015925, complete
+CP002414	Clostridium botulinum BKT015925 plasmid p4BKT015925, complete
+CP002415	Clostridium botulinum BKT015925 plasmid p5BKT015925, complete
+CP002416	Clostridium thermocellum DSM 1313, complete genome.
+CP002417	Variovorax paradoxus EPS, complete genome.
+CP002419	Neisseria meningitidis G2136, complete genome.
+CP002420	Neisseria meningitidis H44/76, complete genome.
+CP002421	Neisseria meningitidis M01-240149, complete genome.
+CP002422	Neisseria meningitidis M01-240355, complete genome.
+CP002423	Neisseria meningitidis M04-240196, complete genome.
+CP002424	Neisseria meningitidis NZ-05/33, complete genome.
+CP002425	Sulfolobus islandicus REY15A, complete genome.
+CP002426	Sulfolobus islandicus HVE10/4, complete genome.
+CP002427	Lactobacillus helveticus H9, complete genome.
+CP002428	Rickettsia slovaca 13-B, complete genome.
+CP002429	Lactobacillus helveticus H10, complete genome.
+CP002430	Lactobacillus helveticus H10 plasmid pH10, complete sequence.
+CP002439	Staphylococcus pseudintermedius HKU10-03, complete genome.
+CP002441	Neisseria gonorrhoeae TCDC-NG08107 plasmid pNGTCDC08107, complete
+CP002444	Thermovibrio ammonificans HB-1, complete genome.
+CP002445	Thermovibrio ammonificans HB-1 plasmid pTHEAM01, complete sequence.
+CP002446	Pseudoxanthomonas suwonensis 11-1, complete genome.
+CP002447	Mesorhizobium ciceri biovar biserrulae WSM1271, complete genome.
+CP002448	Mesorhizobium ciceri biovar biserrulae WSM1271 plasmid pMESCI01,
+CP002452	Nitratifractor salsuginis DSM 16511, complete genome.
+CP002453	Cellulophaga algicola DSM 14237, complete genome.
+CP002454	Deinococcus maricopensis DSM 21211, complete genome.
+CP002455	Weeksella virosa DSM 16922, complete genome.
+CP002456	Taylorella equigenitalis MCE9, complete genome.
+CP002458	Mycoplasma fermentans M64, complete genome.
+CP002459	Brucella melitensis M28 chromosome 1, complete sequence.
+CP002460	Brucella melitensis M28 chromosome 2, complete sequence.
+CP002461	Lactobacillus sanfranciscensis TMW 1.1304, complete genome.
+CP002462	Lactobacillus sanfranciscensis TMW 1.1304 plasmid pLS1, complete
+CP002463	Lactobacillus sanfranciscensis TMW 1.1304 plasmid pLS2, complete
+CP002464	Lactobacillus johnsonii DPC 6026, complete genome.
+CP002465	Streptococcus suis JS14, complete genome.
+CP002468	Bacillus subtilis BSn5, complete genome.
+CP002469	Vibrio vulnificus MO6-24/O chromosome I, complete sequence.
+CP002470	Vibrio vulnificus MO6-24/O chromosome II, complete sequence.
+CP002471	Streptococcus parauberis KCTC 11537, complete genome.
+CP002472	Bacillus coagulans 2-6, complete genome.
+CP002473	Klebsiella pneumoniae plasmid pUUH239.1, complete sequence.
+CP002474	Klebsiella pneumoniae plasmid pUUH239.2, complete sequence.
+CP002478	Staphylococcus pseudintermedius ED99, complete genome.
+CP002486	Bacillus thuringiensis YBT-1518 plasmid pBMB0228, complete
+CP002487	Salmonella enterica subsp. enterica serovar Typhimurium str.
+CP002488	Salmonella enterica subsp. enterica serovar Typhimurium str. ST4/74
+CP002489	Salmonella enterica subsp. enterica serovar Typhimurium str. ST4/74
+CP002490	Salmonella enterica subsp. enterica serovar Typhimurium str. ST4/74
+CP002491	Enterococcus faecalis 62, complete genome.
+CP002492	Enterococcus faecalis 62 plasmid EF62pA, complete sequence.
+CP002493	Enterococcus faecalis 62 plasmid EF62pB, complete sequence.
+CP002494	Enterococcus faecalis 62 plasmid EF62pC, complete sequence.
+CP002496	Pseudomonas aeruginosa M18, complete genome.
+CP002505	Rahnella sp. Y9602, complete genome.
+CP002506	Rahnella sp. Y9602 plasmid pRAHAQ01, complete sequence.
+CP002507	Rahnella sp. Y9602 plasmid pRAHAQ02, complete sequence.
+CP002508	Bacillus thuringiensis serovar finitimus YBT-020, complete genome.
+CP002509	Bacillus thuringiensis serovar finitimus YBT-020 plasmid pBMB26,
+CP002511	Candidatus Pelagibacter sp. IMCC9063, complete genome.
+CP002512	Aerococcus urinae ACS-120-V-Col10a, complete genome.
+CP002513	Mycoplasma bovis Hubei-1, complete genome.
+CP002514	Chloracidobacterium thermophilum B chromosome 1, complete sequence.
+CP002515	Chloracidobacterium thermophilum B chromosome 2, complete sequence.
+CP002522	Acinetobacter baumannii TCDC-AB0715, complete genome.
+CP002523	Acinetobacter baumannii TCDC-AB0715 plasmid p1ABTCDC0715, complete
+CP002524	Acinetobacter baumannii TCDC-AB0715 plasmid p2ABTCDC0715, complete
+CP002526	Glaciecola sp. 4H-3-7+YE-5, complete genome.
+CP002527	Glaciecola sp. 4H-3-7+YE-5 plasmid pGLAAG01, complete sequence.
+CP002528	Krokinobacter sp. 4H-3-7-5, complete genome.
+CP002529	Vulcanisaeta moutnovskia 768-28, complete genome.
+CP002530	Bacteroides salanitronis DSM 18170, complete genome.
+CP002531	Bacteroides salanitronis DSM 18170 plasmid pBACSA01, complete
+CP002532	Bacteroides salanitronis DSM 18170 plasmid pBACSA02, complete
+CP002533	Bacteroides salanitronis DSM 18170 plasmid pBACSA03, complete
+CP002534	Cellulophaga lytica DSM 7489, complete genome.
+CP002535	Acidianus hospitalis W1, complete genome.
+CP002536	Deinococcus proteolyticus MRP, complete genome.
+CP002537	Deinococcus proteolyticus MRP plasmid pDEIPR01, complete sequence.
+CP002538	Deinococcus proteolyticus MRP plasmid pDEIPR02, complete sequence.
+CP002539	Deinococcus proteolyticus MRP plasmid pDEIPR03, complete sequence.
+CP002540	Deinococcus proteolyticus MRP plasmid pDEIPR04, complete sequence.
+CP002541	Sphaerochaeta globosa str. Buddy, complete genome.
+CP002542	Fluviicola taffensis DSM 16823, complete genome.
+CP002543	Desulfurobacterium thermolithotrophum DSM 11699, complete genome.
+CP002544	Odoribacter splanchnicus DSM 20712, complete genome.
+CP002547	Syntrophobotulus glycolicus DSM 8271, complete genome.
+CP002548	Strawberry lethal yellows phytoplasma (CPA) str. NZSb11, complete
+CP002549	Chlamydophila psittaci 6BC, complete genome.
+CP002550	Chlamydophila psittaci 6BC plasmid p6BC, complete sequence.
+CP002551	Methanobacterium lacus strain AL-21, complete genome.
+CP002555	Vibrio cholerae LMA3894-4 chromosome I, complete sequence.
+CP002556	Vibrio cholerae LMA3894-4 chromosome II, complete sequence.
+CP002557	Francisella cf. novicida Fx1, complete genome.
+CP002558	Francisella cf. novicida 3523, complete genome.
+CP002559	Lactobacillus amylovorus strain 30SC, complete genome.
+CP002560	Lactobacillus amylovorus strain 30SC plasmid pRKC30SC1, complete
+CP002561	Lactobacillus amylovorus strain 30SC plasmid pRKC30SC2, complete
+CP002562	Riemerella anatipestifer RA-GD, complete genome.
+CP002563	Carnobacterium sp. 17-4, complete genome.
+CP002564	Carnobacterium sp. 17-4 plasmid pCAR50, complete sequence.
+CP002565	Methanosaeta concilii GP-6, complete genome.
+CP002566	Methanosaeta concilii GP6 plasmid pGP6, complete sequence.
+CP002567	Bifidobacterium animalis subsp. animalis ATCC 25527, complete
+CP002568	Polymorphum gilvum SL003B-26A1, complete genome.
+CP002569	Polymorphum gilvum SL003B-26A1 plasmid pSL003B, complete sequence.
+CP002570	Streptococcus suis A7, complete genome.
+CP002571	Helicobacter pylori 2017, complete genome.
+CP002572	Helicobacter pylori 2018, complete genome.
+CP002573	Acidithiobacillus caldus SM-1, complete genome.
+CP002574	Acidithiobacillus caldus SM-1 megaplasmid, complete sequence.
+CP002575	Acidithiobacillus caldus SM-1 plasmid pLAtc1, complete sequence.
+CP002576	Acidithiobacillus caldus SM-1 plasmid pLAtc2, complete sequence.
+CP002577	Acidithiobacillus caldus SM-1 plasmid pLAtc3, complete sequence.
+CP002580	Burkholderia glumae PG1 chromosome 1, complete sequence.
+CP002581	Burkholderia glumae PG1 chromosome 2, complete sequence.
+CP002583	Marinomonas mediterranea MMB-1, complete genome.
+CP002584	Sphingobacterium sp. 21, complete genome.
+CP002585	Pseudomonas brassicacearum subsp. brassicacearum NFM421, complete
+CP002586	Chlamydophila psittaci 6BC, complete genome.
+CP002587	Chlamydophila psittaci 6BC plasmid pCps6BC, complete sequence.
+CP002588	Archaeoglobus veneficus SNP6, complete genome.
+CP002589	Prevotella denticola F0289, complete genome.
+CP002590	Thermoproteus uzoniensis 768-20, complete genome.
+CP002593	Pseudonocardia dioxanivorans CB1190, complete genome.
+CP002594	Pseudonocardia dioxanivorans CB1190 plasmid pPSED01, complete
+CP002595	Pseudonocardia dioxanivorans CB1190 plasmid pPSED02 genomic
+CP002596	Pseudonocardia dioxanivorans CB1190 plasmid pPSED02 genomic
+CP002597	Pseudonocardia dioxanivorans CB1190 plasmid pPSED02 genomic
+CP002598	Pseudonocardia dioxanivorans CB1190 plasmid pPSED03, complete
+CP002599	Burkholderia gladioli BSR3 chromosome 1, complete sequence.
+CP002600	Burkholderia gladioli BSR3 chromosome 2, complete sequence.
+CP002601	Burkholderia gladioli BSR3 plasmid bgla_1p, complete sequence.
+CP002602	Burkholderia gladioli BSR3 plasmid bgla_2p, complete sequence.
+CP002603	Burkholderia gladioli BSR3 plasmid bgla_3p, complete sequence.
+CP002604	Burkholderia gladioli BSR3 plasmid bgla_4p, complete sequence.
+CP002605	Helicobacter pylori 83, complete genome.
+CP002606	Hippea maritima DSM 10411, complete genome.
+CP002607	Aeromonas veronii B565, complete genome.
+CP002608	Chlamydophila pecorum E58, complete genome.
+CP002609	Lactobacillus amylovorus GRL1118, complete genome.
+CP002610	Lactobacillus amylovorus GRL 1118 plasmid1, complete sequence.
+CP002611	Lactobacillus amylovorus GRL 1118 plasmid2, complete sequence.
+CP002612	Lactobacillus amylovorus GRL 1112 plasmid1, complete sequence.
+CP002613	Lactobacillus amylovorus GRL 1112 plasmid2, complete sequence.
+CP002614	Salmonella enterica subsp. enterica serovar Typhimurium str. UK-1,
+CP002615	Salmonella enterica subsp. enterica serovar Typhimurium str. UK-1
+CP002616	Lactobacillus casei LC2W, complete genome.
+CP002617	Lactobacillus casei LC2W plasmid pLC2W, complete sequence.
+CP002618	Lactobacillus casei BD-II, complete genome.
+CP002619	Lactobacillus casei BD-II plasmid pBD-II, complete sequence.
+CP002620	Pseudomonas mendocina NK-01, complete genome.
+CP002622	Pseudomonas stutzeri DSM 4166, complete genome.
+CP002627	Bacillus amyloliquefaciens TA208, complete genome.
+CP002628	Coriobacterium glomerans PW2, complete genome.
+CP002629	Desulfobacca acetoxidans DSM 11109, complete genome.
+CP002630	Marinithermus hydrothermalis DSM 14884, complete genome.
+CP002631	Treponema succinifaciens DSM 2489, complete genome.
+CP002632	Treponema succinifaciens DSM 2489 plasmid pTRESU01, complete
+CP002633	Streptococcus suis ST3, complete genome.
+CP002634	Bacillus amyloliquefaciens LL3, complete genome.
+CP002635	Bacillus amyloliquefaciens LL3 plasmid pMC1, complete sequence.
+CP002636	Borrelia hermsii DAH plasmid lp53 hypothetical protein (BH_P00365)
+CP002637	Selenomonas sputigena ATCC 35185, complete genome.
+CP002638	Verrucosispora maris AB-18-032, complete genome.
+CP002639	Verrucosispora maris AB-18-032 plasmid pVMKU, complete sequence.
+CP002640	Streptococcus suis SS12, complete genome.
+CP002641	Streptococcus suis D9, complete genome.
+CP002642	Candidatus Rickettsia amblyommii AaR/SC plasmid pRAM32, complete
+CP002643	Staphylococcus aureus subsp. aureus T0131, complete genome.
+CP002644	Streptococcus suis D12, complete genome.
+CP002645	Buchnera aphidicola str. Ak (Acyrthosiphon kondoi), complete
+CP002646	Buchnera aphidicola str. Ak (Acyrthosiphon kondoi) plasmid pLeu,
+CP002647	Buchnera aphidicola str. Ak (Acyrthosiphon kondoi) plasmid pTrp,
+CP002648	Buchnera aphidicola str. Ua (Uroleucon ambrosiae), complete genome.
+CP002649	Buchnera aphidicola str. Ua (Uroleucon ambrosiae) plasmid pLeu,
+CP002650	Buchnera aphidicola str. Ua (Uroleucon ambrosiae) plasmid pTrp,
+CP002651	Streptococcus suis ST1, complete genome.
+CP002652	Lactobacillus buchneri NRRL B-30929, complete genome.
+CP002653	Lactobacillus buchneri NRRL B-30929 plasmid pLBUC01, complete
+CP002654	Lactobacillus buchneri NRRL B-30929 plasmid pLBUC02, complete
+CP002655	Lactobacillus buchneri NRRL B-30929 plasmid pLBUC03, complete
+CP002656	Metallosphaera cuprina Ar-4, complete genome.
+CP002657	Alicycliphilus denitrificans K601, complete genome.
+CP002658	Alicycliphilus denitrificans K601 plasmid pALIDE201, complete
+CP002659	Sphaerochaeta coccoides DSM 17374, complete genome.
+CP002660	Clostridium acetobutylicum DSM 1731, complete genome.
+CP002661	Clostridium acetobutylicum DSM 1731 plasmid pSMBa, complete
+CP002662	Clostridium acetobutylicum DSM 1731 plasmid pSMBb, complete
+CP002663	Pusillimonas sp. T7-7, complete genome.
+CP002664	Pusillimonas sp. T7-7 plasmid, complete sequence.
+CP002665	[Cellvibrio] gilvus ATCC 13127, complete genome.
+CP002666	Cellulomonas fimi ATCC 484, complete genome.
+CP002667	Gallibacterium anatis UMN179, complete genome.
+CP002668	Gallibacterium anatis UMN179 plasmid pUMN179, complete sequence.
+CP002669	Mycoplasma hyorhinis MCLD, complete genome.
+CP002670	Pyrococcus sp. NA2, complete genome.
+CP002671	Chlamydia trachomatis RC-F/69, complete genome.
+CP002672	Chlamydia trachomatis RC-L2(s)/46, complete genome.
+CP002673	Chlamydia trachomatis RC-F(s)/852, complete genome.
+CP002674	Chlamydia trachomatis RC-J/943, complete genome.
+CP002675	Chlamydia trachomatis RC-J/953, complete genome.
+CP002676	Chlamydia trachomatis RC-L2(s)/3, complete genome.
+CP002677	Chlamydia trachomatis RC-F(s)/342, complete genome.
+CP002678	Chlamydia trachomatis RC-J(s)/122, complete genome.
+CP002679	Chlamydia trachomatis RC-J/966, complete genome.
+CP002680	Chlamydia trachomatis J/6276tet1, complete genome.
+CP002681	Chlamydia trachomatis RC-J/971, complete genome.
+CP002682	Chlamydia trachomatis RC-L2/55, complete genome.
+CP002683	Thermodesulfatator indicus DSM 15286, complete genome.
+CP002689	Porphyromonas asaccharolytica DSM 20707, complete genome.
+CP002690	Thermodesulfobium narugense DSM 14796, complete genome.
+CP002691	Haliscomenobacter hydrossis DSM 1100, complete genome.
+CP002692	Haliscomenobacter hydrossis DSM 1100 plasmid pHALHY01, complete
+CP002693	Haliscomenobacter hydrossis DSM 1100 plasmid pHALHY02, complete
+CP002694	Haliscomenobacter hydrossis DSM 1100 plasmid pHALHY03, complete
+CP002695	Bordetella pertussis CS, complete genome.
+CP002696	Treponema brennaborense DSM 12168, complete genome.
+CP002697	Buchnera aphidicola str. USDA (Myzus persicae), complete genome.
+CP002698	Buchnera aphidicola str. USDA (Myzus persicae) plasmid pLeu,
+CP002699	Buchnera aphidicola str. W106 (Myzus persicae), complete genome.
+CP002700	Buchnera aphidicola str. W106 (Myzus persicae) plasmid pLeu,
+CP002701	Buchnera aphidicola str. G002 (Myzus persicae), complete genome.
+CP002702	Buchnera aphidicola str. G002 (Myzus persicae) plasmid pLeu,
+CP002703	Buchnera aphidicola str. F009 (Myzus persicae), complete genome.
+CP002704	Buchnera aphidicola str. F009 (Myzus persicae) plasmid pLeu,
+CP002725	Gardnerella vaginalis HMP9231, complete genome.
+CP002726	Hydrogenobaculum sp. 3684, complete genome.
+CP002727	Pseudomonas fulva 12-X, complete genome.
+CP002728	Tepidanaerobacter acetatoxydans Re1, complete genome.
+CP002729	Escherichia coli UMNK88, complete genome.
+CP002730	Escherichia coli UMNK88 plasmid pUMNK88_K88, complete sequence.
+CP002731	Escherichia coli UMNK88 plasmid pUMNK88_91, complete sequence.
+CP002732	Escherichia coli UMNK88 plasmid pUMNK88_Ent, complete sequence.
+CP002733	Escherichia coli UMNK88 plasmid pUMNK88_Hly, complete sequence.
+CP002734	Propionibacterium propionicum F0230a, complete genome.
+CP002735	Delftia sp. Cs1-4, complete genome.
+CP002736	Desulfotomaculum carboxydivorans CO-1-SRB, complete genome.
+CP002737	Methanotorris igneus Kol 5, complete genome.
+CP002738	Methylomonas methanica MC09, complete genome.
+CP002743	Bifidobacterium breve ACS-071-V-Sch8b, complete genome.
+CP002744	Chlamydophila psittaci Mat116, complete genome.
+CP002745	Collimonas fungivorans Ter331, complete genome.
+CP002746	Borrelia bissettii DN127, complete genome.
+CP002747	Borrelia bissettii DN127 plasmid cp26, complete sequence.
+CP002748	Borrelia bissettii DN127 plasmid cp32-11, complete sequence.
+CP002749	Borrelia bissettii DN127 plasmid cp32-3, complete sequence.
+CP002750	Borrelia bissettii DN127 plasmid cp32-4, complete sequence.
+CP002751	Borrelia bissettii DN127 plasmid cp32-5, complete sequence.
+CP002752	Borrelia bissettii DN127 plasmid cp32-6, complete sequence.
+CP002753	Borrelia bissettii DN127 plasmid cp32-7, complete sequence.
+CP002754	Borrelia bissettii DN127 plasmid cp32-quad, complete sequence.
+CP002755	Borrelia bissettii DN127 plasmid cp9, complete sequence.
+CP002756	Borrelia bissettii DN127 plasmid lp17, complete sequence.
+CP002757	Borrelia bissettii DN127 plasmid lp25, complete sequence.
+CP002758	Borrelia bissettii DN127 plasmid lp28-3, complete sequence.
+CP002759	Borrelia bissettii DN127 plasmid lp28-4, complete sequence.
+CP002760	Borrelia bissettii DN127 plasmid lp28-7, complete sequence.
+CP002761	Borrelia bissettii DN127 plasmid lp54, complete sequence.
+CP002762	Borrelia bissettii DN127 plasmid lp56, complete sequence.
+CP002764	Lactobacillus kefiranofaciens ZW3, complete genome.
+CP002765	Lactobacillus kefiranofaciens ZW3 plasmid pWW1, complete sequence.
+CP002766	Lactobacillus kefiranofaciens ZW3 plasmid pWW2, complete sequence.
+CP002770	Desulfotomaculum kuznetsovii DSM 6115, complete genome.
+CP002771	Marinomonas posidonica IVIA-Po-181, complete genome.
+CP002772	Methanobacterium paludis strain SWAN1, complete genome.
