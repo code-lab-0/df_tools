@@ -1,0 +1,10 @@
+<config>
+    <dbSetting>
+        <name>df_tools_testdb</name>
+        <dbms>mysql</dbms>
+        <host>localhost</host>
+        <db>df_tools_testdb</db>
+        <user>root</user>
+        <password>testddbj</password>
+    </dbSetting>
+</config>
