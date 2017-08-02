@@ -1,4 +1,11 @@
 #!/usr/bin/perl
+# quota集計_20170714版.xlsmのタブ区切りテキスト出力ファイルから
+# グループID, 責任者名, 責任者所属, 責任者メールアドレス
+# または
+# ユーザーID, グループID, メンバー名, メンバー所属, メンバーメールアドレス
+# を出力するスクリプト。
+# 責任者リストを出力する場合は --group オプション、メンバーリストを出力する場合は --member オプションを渡す。
+
 use strict;
 use warnings;
 use Getopt::Long;
@@ -23,8 +30,6 @@ sub analyze_args {
     Getopt::Long::GetOptions(\%opts, qw( group member )) or exit 1;
     return %opts;
 }
-
-
 
 sub get_group {
     my $group_line = 1;
