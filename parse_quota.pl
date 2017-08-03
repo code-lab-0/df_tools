@@ -37,7 +37,7 @@ sub get_group {
         chomp;
         if ($group_line) {
             my @cols = split(/\t/, $_, -1);
-            print join("\t", ($cols[0], $cols[1], $cols[2], $cols[3])), "\n";
+            print(join("\t", ($cols[0], $cols[1], $cols[2], $cols[3])) . "\n");
             $group_line = 0;
             next;
         } else {
@@ -65,7 +65,7 @@ sub get_member {
                 next;
             } else {
                 my @cols = split(/\t/, $_, -1);
-                print join("\t", ($cols[0], $group_id, $cols[1], $cols[2], $cols[3])), "\n";
+                print(join("\t", ($cols[0], $group_id, $cols[1], $cols[2], $cols[3])) . "\n");
                 next;
             }
         }
