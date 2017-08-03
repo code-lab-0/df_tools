@@ -41,12 +41,14 @@ use strict;
 use warnings;
 use Getopt::Long;
 use Pod::Usage;
+use utf8;
+use Encode;
 #use Set::IntSpan qw/grep_set map_set/;
 #use Set::Scalar;
 #use String::Strip;
 
-use open ":utf8";
-use open ":std";
+use open ':encoding(utf8)';
+use open ':std';
 
 main();
 
@@ -74,13 +76,15 @@ sub analyze_args {
 sub get_column {
     my $key_column = shift @_;
     my $key_name = shift @_;
+    $key_name = Encode::decode('utf8', $key_name);
     my $value_column = shift @_;
     my $value_name = shift @_;
+    $value_name = Encode::decode('utf8', $value_name);
 
     while (<>) {
         chomp;
         my @cols = split(/\t/, $_, -1);
-        print join("\t", ($key_name, $cols[$key_column], $value_name, $cols[$value_column], "\n"));
+        print(join("\t", ($key_name, $cols[$key_column], $value_name, $cols[$value_column])) . "\n");
     }
 }
 
