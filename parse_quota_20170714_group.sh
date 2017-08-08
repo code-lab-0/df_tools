@@ -1,7 +1,8 @@
 #!/bin/bash
-export DF_TOOLS=$HOME/works/df_tools
-export PATH=$PATH:$DF_TOOLS
-export DATACELL_MYSQL_JAR=$DF_TOOLS/DataCell-mysql-1.0.0-jar-with-dependencies.jar
+
+DF_TOOLS=$HOME/works/df_tools
+PATH=$PATH:$DF_TOOLS
+DATACELL_MYSQL_JAR=$DF_TOOLS/DataCell-mysql-1.0.0-jar-with-dependencies.jar
 
 dc_join.my() {
     java -cp $DATACELL_MYSQL_JAR net.ogalab.datacell.mysql.app.DcJoinMySQL "$@"
