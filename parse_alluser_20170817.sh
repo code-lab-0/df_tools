@@ -19,17 +19,15 @@ dc_delete.my() {
     java -cp $DATACELL_MYSQL_JAR net.ogalab.datacell.mysql.app.DcDeleteTablesMySQL "$@"
 }
 
-INFILE=$DF_TOOLS/data/alluser-20170509-307e30663099-2.txt
-OUTFILE_PREFIX='alluser-20170509'
-DB='testdb'
+DATA_DIR=$DF_TOOLS/alluser_20170817
+INFILE=$DATA_DIR/alluser_20170817.tsv
+OUTFILE_PREFIX='alluser_20170817'
+DB='sc_alluser_20170817'
 
 dataArray=(
-    '1 ユーザーメールアドレス 2 ユーザー氏名'
-    '1 ユーザーメールアドレス 3 ユーザー所属'
-    '3 ユーザー所属 5 機関名'
-    '5 機関名 6 国内外'
-    '5 機関名 7 機関区分'
-    '1 ユーザーメールアドレス 11 ユーザー国籍'
+    '0 ユーザーメールアドレス 1 ユーザー氏名'
+    '0 ユーザーメールアドレス 2 ユーザー所属'
+    '0 ユーザーメールアドレス 6 ユーザー国籍'
 )
 
 for i in "${dataArray[@]}"; do
@@ -38,7 +36,7 @@ for i in "${dataArray[@]}"; do
     KN=${data[1]}
     VC=${data[2]}
     VN=${data[3]}
-    get_tsv4.pl -kc ${KC} -kn ${KN} -vc ${VC} -vn ${VN} < ${INFILE} > ${OUTFILE_PREFIX}__${KN}__${VN}.txt
-    dc_load.my -db ${DB} -f TSV4 -op kv < ${OUTFILE_PREFIX}__${KN}__${VN}.txt
+    get_tsv4.pl -kc ${KC} -kn ${KN} -vc ${VC} -vn ${VN} < ${INFILE} > ${DATA_DIR}/${OUTFILE_PREFIX}__${KN}__${VN}.txt
+    dc_load.my -db ${DB} -f TSV4 -op kv < ${DATA_DIR}/${OUTFILE_PREFIX}__${KN}__${VN}.txt
 done
 

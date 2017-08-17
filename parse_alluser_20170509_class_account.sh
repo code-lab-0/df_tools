@@ -19,17 +19,17 @@ dc_delete.my() {
     java -cp $DATACELL_MYSQL_JAR net.ogalab.datacell.mysql.app.DcDeleteTablesMySQL "$@"
 }
 
-INFILE=$DF_TOOLS/data/alluser-20170509-307e30663099-2.txt
-OUTFILE_PREFIX='alluser-20170509'
+INFILE=$DF_TOOLS/data/alluser-20170509_class_account.txt
+OUTFILE_PREFIX='alluser-20170509_class_account'
 DB='testdb'
 
 dataArray=(
-    '1 ユーザーメールアドレス 2 ユーザー氏名'
-    '1 ユーザーメールアドレス 3 ユーザー所属'
-    '3 ユーザー所属 5 機関名'
-    '5 機関名 6 国内外'
-    '5 機関名 7 機関区分'
-    '1 ユーザーメールアドレス 11 ユーザー国籍'
+    '0 class_account 1 ユーザーメールアドレス'
+    '1 ユーザーメールアドレス 0 class_account'
+    '0 class_account 2 ユーザー種別'
+    '0 class_account 3 アカウント名'
+    '0 class_account 4 アカウント開始日'
+    '0 class_account 5 アカウント停止日'
 )
 
 for i in "${dataArray[@]}"; do
